@@ -1,12 +1,25 @@
 <script>
+import { add_classes } from "svelte/internal";
 
+    import { fly } from "svelte/transition";
     export let titolo = 'PL';
-    export let iconName = '👌';
-    export let info = 'A programming languagaaaaaaaaaaaaaaaaaae';
+    let status = false;
+
+
+    function handleHover(e){
+        status = !status;
+    }
+
+
 </script>
 
-<div class="main">
-    <h1>{titolo}</h1>
-    <p>{iconName}</p>
-    <p>{info}</p>
+<!-- svelte-ignore a11y-mouse-events-have-key-events -->
+<div class="main m-auto flex gap-5 bg-gray-700 rounded-xl 
+            p-2 hover:scale-105 transition-all 
+            duration-100 w-1/2 hover:w-96 hover:shadow-lg mb-5" on:mouseover={handleHover} on:mouseout={handleHover} >
+        <img class="w-20 h-20 flex m-auto p-2 rounded-xl " src="src\icons\languages\{titolo.toLowerCase()}.png" alt="">
+        {#if status}
+            <h1 transition:fly class="text-xl font-black  m-auto text-yellow-200">{titolo}</h1>
+        {/if}
+    
 </div>

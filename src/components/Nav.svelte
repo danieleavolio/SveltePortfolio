@@ -4,8 +4,6 @@
     function onMouseIn(e){
     show = !show;
 
-
-
 }
 </script>
 <nav class="bg-gray-700 mx-auto p-2 grid grid-cols-2 sticky top-0 ">
