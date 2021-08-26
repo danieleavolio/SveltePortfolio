@@ -1,30 +1,102 @@
 <script>
-    let show = false;
-	import {fade} from 'svelte/transition';
-    function onMouseIn(e){
-    show = !show;
+	import { onMount } from 'svelte';
+	import { fade, fly } from 'svelte/transition';
+	let showNav = false;
+	let show = false;
 
-}
+	function onMouseIn(e) {
+		show = !show;
+	}
+
+	function mouseClick(e) {
+		showNav = !showNav;
+		console.log(showNav);
+	}
 </script>
-<nav class="bg-gray-700 mx-auto p-2 grid grid-cols-2 sticky top-0 ">
-	<div class="name">
 
+<nav class="bg-gray-700 mx-auto p-2 h-12 sticky top-0 ">
+	<div class="name">
 		{#if show}
-		<!-- svelte-ignore a11y-mouse-events-have-key-events -->
-		<a transition:fade class="font-black text-2xl text-yellow-300 mx-5 absolute " href="/" on:mouseout={onMouseIn}>Daniele Avolio</a>
+			<!-- svelte-ignore a11y-mouse-events-have-key-events -->
+			<a
+				transition:fade
+				class="font-black text-2xl text-yellow-300 mx-5 absolute"
+				href="/"
+				on:mouseout={onMouseIn}>Daniele Avolio</a
+			>
 		{/if}
 
 		{#if !show}
-        <!-- svelte-ignore a11y-mouse-events-have-key-events -->
-		<a transition:fade class="font-black text-2xl text-yellow-200  mx-5 absolute" href="/" on:mouseover={onMouseIn}>DA</a>
+			<!-- svelte-ignore a11y-mouse-events-have-key-events -->
+			<a
+				transition:fade
+				class="font-black text-2xl text-yellow-200  mx-5 absolute"
+				href="/"
+				on:mouseover={onMouseIn}>DA</a
+			>
 		{/if}
+	</div>
+	<div class="others  m-auto justify-end mx-10 space-x-5 hidden sm:flex">
+		<a
+			class=" text-2xl font-semibold text-yellow-200 hover:text-yellow-300 ease-in duration-100 transition-all"
+			href="/">Home</a
+		>
+		<a
+			class="text-2xl  font-semibold text-yellow-200 hover:text-yellow-300 ease-in duration-100 transition-all"
+			href="/strumenti">Strumenti</a
+		>
+		<a
+			class=" text-2xl font-semibold text-yellow-200 hover:text-yellow-300 ease-in duration-100 transition-all"
+			href="/progetti">Progetti</a
+		>
+		<a
+			class=" text-2xl font-semibold text-yellow-200 hover:text-yellow-300 ease-in duration-100 transition-all"
+			href="/contattami">Contattami</a
+		>
+	</div>
 
-		
+	<div class="dropdown sm:hidden flex justify-end">
+		<svg
+			xmlns="http://www.w3.org/2000/svg"
+			class="w-8 h-8 self-center hover:cursor-pointer text-yellow-200 hover:text-yellow-300 duration-75 transition-all"
+			fill="none"
+			viewBox="0 0 24 24"
+			stroke="currentColor"
+			on:click={mouseClick}
+		>
+			<path
+				strokeLinecap="round"
+				strokeLinejoin="round"
+				strokeWidth={2}
+				d="M4 6h16M4 12h16M4 18h16"
+			/>
+		</svg>
 	</div>
-	<div class="others flex justify-end mx-10 space-x-5">
-		<a class="text-2xl font-semibold text-yellow-200 hover:text-yellow-300 ease-in duration-100 transition-all" href="/">Home</a>
-		<a class="text-2xl font-semibold text-yellow-200 hover:text-yellow-300 ease-in duration-100 transition-all" href="/strumenti">Strumenti</a>
-		<a class="text-2xl font-semibold text-yellow-200 hover:text-yellow-300 ease-in duration-100 transition-all" href="/progetti">Progetti</a>
-		<a class="text-2xl font-semibold text-yellow-200 hover:text-yellow-300 ease-in duration-100 transition-all" href="/contattami">Contattami</a>
-	</div>
+	{#if showNav}
+		<div
+			transition:fly
+			class="navOpen space-x-5 m-5 p-5 justify-center flex flex-col bg-gray-700 rounded-lg "
+		>
+			<a
+				class="flex justify-center text-2xl font-semibold text-yellow-200 hover:text-yellow-300 ease-in duration-100 transition-all"
+				on:click={mouseClick}
+				href="/">Home</a
+			>
+			<a
+				class="flex justify-center  text-2xl  font-semibold text-yellow-200 hover:text-yellow-300 ease-in duration-100 transition-all"
+				href="/strumenti"
+				on:click={mouseClick}
+				>Strumenti
+			</a>
+			<a
+				class="flex justify-center  text-2xl font-semibold text-yellow-200 hover:text-yellow-300 ease-in duration-100 transition-all"
+				href="/progetti"
+				on:click={mouseClick}>Progetti</a
+			>
+			<a
+				class="flex justify-center  text-2xl font-semibold text-yellow-200 hover:text-yellow-300 ease-in duration-100 transition-all"
+				href="/contattami"
+				on:click={mouseClick}>Contattami</a
+			>
+		</div>{/if}
 </nav>
