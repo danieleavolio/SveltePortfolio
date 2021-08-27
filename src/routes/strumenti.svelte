@@ -23,6 +23,7 @@
 </script>
 
 <TransitionComponent>
+	<title>Strumenti e Linguaggi</title>
 	<div class="container bg-yellow-100 w-1/2 h-auto rounded-lg m-auto mt-20">
 		<div class="boxCentrale">
 			<h1 class="text-3xl text-gray-700 font-black text-center m-5">Linguaggi e Strumenti</h1>

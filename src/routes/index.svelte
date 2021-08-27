@@ -2,7 +2,21 @@
 	//Mi serve per fare in modo che le pagine abbiano una transizione
 	import TransitionComponent from '../components/TransitionComponent.svelte';
 	import Footer from '../components/Footer.svelte';
-	let socials = ['twitter', 'github', 'instagram', 'discord'];
+	let socials = [
+		{
+			name: 'twitter',
+			link: ''
+		},
+		{
+			name: 'github',
+			link: ''
+		},
+		{
+			name: 'instagram',
+			link: ''
+		},
+		{ name: 'discord', link: 'https://discordapp.com/users/0657/' }
+	];
 </script>
 
 <title>Daniele Avolio</title>
@@ -10,7 +24,7 @@
 	<div
 		class="container bg-yellow-100 w-11/12 h-screen rounded-lg sm:grid sm:grid-cols-2 grid-rows-1 m-auto "
 	>
-		<div class="info m-auto flex flex-col h-3/4 ">
+		<div class="info m-auto flex flex-col h-auto md:h-3/4 gap-5 ">
 			<div class="cnt-image m-auto hover:scale-110 duration-100 ">
 				<img
 					class="border-4 border-gray-600 rounded-full h-72 w-72 shadow-md"
@@ -26,11 +40,12 @@
 					Computer Science student
 				</h3>
 			</div>
-			<button
+			<a
+				href="https://drive.google.com/file/d/1YYLo_PTYPDJEwrUOVGqychMAdH1QsNvq/view?usp=sharing"
 				class=" hover:scale-125 hover:text-yellow-200 mx-auto my-5 bg-gray-600 rounded p-2 h-min max-w-sm font-semibold text-white hover:bg-gray-700 transition-all duration-150 ease-linear center"
 			>
 				Download CV
-			</button>
+			</a>
 		</div>
 		<div class="bio m-auto hover:scale-105 duration-100">
 			<div class="testo shadow-xl rounded-lg bg-gray-700">
