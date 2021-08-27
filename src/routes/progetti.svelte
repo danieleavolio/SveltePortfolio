@@ -1,10 +1,37 @@
 <script>
 	import TransitionComponent from '../components/TransitionComponent.svelte';
 	import Footer from '../components/Footer.svelte';
+	import ProjectCard from '../components/ProjectCard.svelte';
+	import { slide } from 'svelte/transition';
+
+	//progetti per riempire il box dei progetti
+	const progetti = [
+		{ name: 'Donkey Kong AI' },
+		{ name: 'Game Syllabus' },
+		{ name: 'Personal Portfolio' },
+		{ name: 'Password Generator' },
+		{ name: 'I Miss My Bus' },
+		{ name: 'Anime Hook' },
+		{ name: 'Hero Road' },
+		{ name: 'Game Of Life GUI' },
+		{ name: 'Lab Network Configuration' }
+	];
 </script>
 
 <TransitionComponent>
-	<div class="container bg-yellow-100 w-max h-auto my-52 rounded-lg grid grid-cols-2 m-auto " />
-	<h1 class="text-center align-top">Ciao</h1>
+	<div class="container bg-yellow-100 h-auto rounded-lg m-auto mt-20">
+		<h2 class="text-3xl text-gray-700 font-black text-center m-5">Progetti</h2>
+		<div class="boxCentrale mt-5 h-auto md:h-screen flex flex-row m-auto min-h-full">
+			<div
+				transition:slide
+				style="overflow: auto;"
+				class="boxProgetti grid sm:flex sm:flex-row overflow-auto m-auto gap-5"
+			>
+				{#each progetti as progetto}
+					<ProjectCard titolo={progetto.name} />
+				{/each}
+			</div>
+		</div>
+	</div>
 	<Footer />
 </TransitionComponent>
