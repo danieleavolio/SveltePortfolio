@@ -20,7 +20,7 @@
 		property="og:description"
 		content="Sono Daniele Avolio, programmatore e sviluppatore. Principalmente mi occupo di sviluppo web. Mi appassiona il mondo della tecnologia e della programmazione web."
 	/>
-	<meta property="og:image" content="https://imgur.com/a/EQ0MruQ" />
+	<meta property="og:image" content="https://i.imgur.com/jtjXJOT.png" />
 
 	<!-- Twitter Meta Tags -->
 	<meta name="twitter:card" content="summary_large_image" />
@@ -31,7 +31,7 @@
 		name="twitter:description"
 		content="Sono Daniele Avolio, programmatore e sviluppatore. Principalmente mi occupo di sviluppo web. Mi appassiona il mondo della tecnologia e della programmazione web."
 	/>
-	<meta name="twitter:image" content="https://imgur.com/a/EQ0MruQ" />
+	<meta name="twitter:image" content="https://i.imgur.com/jtjXJOT.png" />
 
 	<!-- Meta Tags Generated via https://www.opengraph.xyz -->
 
