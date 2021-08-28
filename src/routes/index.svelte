@@ -61,7 +61,7 @@
 			<a
 				href="https://drive.google.com/file/d/1YYLo_PTYPDJEwrUOVGqychMAdH1QsNvq/view?usp=sharing"
 				target="_blank"
-				class=" hover:scale-125 hover:text-yellow-200 text-gray-700 dark:hover:text-gray-600 mx-auto my-5 dark:bg-yellow-200  bg-gray-600 rounded p-2 h-min max-w-sm font-semibold dark:hover:bg-yellow-300  hover:bg-gray-700 transition-all duration-150 ease-linear center"
+				class=" hover:scale-125 hover:text-yellow-300 dark:text-gray-700 text-yellow-200 dark:hover:text-gray-600 mx-auto my-5 dark:bg-yellow-200  bg-gray-600 rounded p-2 h-min max-w-sm font-semibold dark:hover:bg-yellow-300  hover:bg-gray-700 transition-all duration-150 ease-linear center"
 			>
 				Download CV
 			</a>
@@ -98,7 +98,7 @@
 				{#each socials as social}
 					<a href={social.link} target="_blank">
 						<img
-							class="h-10 p-2 dark:bg-yellow-200 bg-gray-700 rounded-lg mb-5 w-10 cursor-pointer opacity-75 hover:opacity-100 hover:scale-125 transition-all duration-150 "
+							class="h-10 p-2 dark:bg-yellow-200 bg-gray-400 rounded-lg mb-5 w-10 cursor-pointer opacity-75 hover:opacity-100 hover:scale-125 transition-all duration-150 "
 							src="icons\{social.name}.svg"
 							alt=""
 						/>

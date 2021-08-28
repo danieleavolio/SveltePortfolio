@@ -1,6 +1,5 @@
 <script>
-	import { onMount } from 'svelte';
-	import { fade, fly } from 'svelte/transition';
+	import { fade, slide } from 'svelte/transition';
 	let showNav = false;
 	let show = false;
 
@@ -10,7 +9,10 @@
 
 	function mouseClick(e) {
 		showNav = !showNav;
-		console.log(showNav);
+	}
+
+	function closeMenu(e) {
+		showNav = false;
 	}
 </script>
 
@@ -19,20 +21,26 @@
 		{#if show}
 			<!-- svelte-ignore a11y-mouse-events-have-key-events -->
 			<a
-				transition:fade
+				in:slide={{ y: 100 }}
+				out:slide={{ y: 100 }}
 				class="font-black text-2xl dark:text-gray-700 dark:hover:text-gray-600 text-yellow-300 mx-5 absolute"
 				href="/"
-				on:mouseout={onMouseIn}>Daniele Avolio</a
+				on:mouseout={onMouseIn}
+				on:click={(closeMenu, onMouseIn)}
+			>
+				Daniele Avolio</a
 			>
 		{/if}
 
 		{#if !show}
 			<!-- svelte-ignore a11y-mouse-events-have-key-events -->
 			<a
-				transition:fade
+				in:slide={{ y: -100 }}
+				out:slide={{ y: 100 }}
 				class="font-black text-2xl dark:text-gray-700 dark:hover:text-gray-600 text-yellow-200  mx-5 absolute"
 				href="/"
-				on:mouseover={onMouseIn}>DA</a
+				on:mouseover={onMouseIn}
+				on:click={closeMenu}>DA</a
 			>
 		{/if}
 	</div>
@@ -64,6 +72,7 @@
 			stroke="currentColor"
 			on:click={mouseClick}
 		>
+			<!-- Quando clicchi sul burger praticamente cambia anche il nome che c'è a sinistra -->
 			<path
 				strokeLinecap="round"
 				strokeLinejoin="round"
@@ -74,8 +83,8 @@
 	</div>
 	{#if showNav}
 		<div
-			transition:fly
-			class="navOpen space-x-5 m-5 p-5 justify-center flex flex-col bg-gray-700 rounded-lg "
+			transition:slide={{ y: 200, duration: 100 }}
+			class="navOpen space-x-5 m-2 p-5 justify-center flex flex-col bg-gray-700 dark:bg-yellow-200 rounded-b-lg "
 		>
 			<a
 				class="flex justify-center text-2xl font-semibold dark:text-gray-700 dark:hover:text-gray-600 text-yellow-200 hover:text-yellow-300 ease-in duration-100 transition-all"
