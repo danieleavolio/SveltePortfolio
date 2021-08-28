@@ -15,7 +15,7 @@
 			alt=""
 		/>
 	</div>
-	<div class="bottomPart w-full h-full grid grid-cols-2">
+	<div class="bottomPart w-full h-full grid grid-cols-2 items-center justify-items-center">
 		<div class="p-5 testi flex flex-col gap-5">
 			<h2 class="text-left text-xl md:text-2xl font-semibold text-yellow-300">
 				{nome}
@@ -26,7 +26,7 @@
 		</div>
 		<a
 			href="/progetti/{nome}"
-			class="bg-yellow-200 text-gray-700 hover:scale-110 hover:bg-yellow-300 cursor-pointer flex m-auto  duration-100 transition-all  ease-linear p-3  rounded-md font-semibold"
+			class="flex w-min whitespace-nowrap h-1/3 items-center bg-yellow-200 text-gray-700 hover:scale-110 hover:bg-yellow-300 cursor-pointer first-letter:duration-100 transition-all  ease-linear p-3  rounded-md font-semibold"
 		>
 			More Info
 		</a>
