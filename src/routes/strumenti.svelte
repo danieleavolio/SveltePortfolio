@@ -22,11 +22,15 @@
 	];
 </script>
 
+<body class="dark:bg-gray-700" />
+
 <TransitionComponent>
 	<title>Strumenti e Linguaggi</title>
-	<div class="container bg-yellow-100 w-auto h-auto rounded-lg m-auto mt-20">
+	<div class="container bg-yellow-100 dark:bg-gray-700 w-auto h-auto rounded-lg m-auto mt-20">
 		<div class="boxCentrale">
-			<h2 class="text-5xl text-gray-700 font-black text-center m-5">Linguaggi e Strumenti</h2>
+			<h2 class="text-5xl dark:text-yellow-200 text-gray-700 font-black text-center m-5">
+				Linguaggi e Strumenti
+			</h2>
 			<div transition:slide class="boxLinguaggi grid grid-cols-1 md:grid-cols-2 gap-6 m-auto">
 				{#each strAndLinguaggi as linguaggio}
 					<LanguageBox titolo={linguaggio.name} />

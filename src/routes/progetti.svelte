@@ -21,10 +21,15 @@
 	*/
 </script>
 
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<body class="dark:bg-gray-700" />
+
 <TransitionComponent>
 	<title>Progetti</title>
-	<div class="container bg-yellow-100 h-auto rounded-lg m-auto">
-		<h2 class="text-7xl text-gray-700 font-black text-center m-5">Progetti</h2>
+	<div class="container dark:bg-gray-700 bg-yellow-100 h-auto rounded-lg m-auto">
+		<h2 class="text-7xl dark:text-yellow-200 text-gray-700 font-black text-center m-5">Progetti</h2>
 		<div class="boxCentrale mt-5 h-auto md:h-screen flex flex-row">
 			<div
 				style="overflow: auto;"

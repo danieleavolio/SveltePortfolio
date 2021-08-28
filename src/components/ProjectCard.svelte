@@ -6,7 +6,7 @@
 
 <!-- svelte-ignore a11y-mouse-events-have-key-events -->
 <div
-	class="max-w-xs sm:max-w-md md:max-w-xl m-5 h-auto flex flex-col shadow-lg rounded-xl bg-gray-700"
+	class="max-w-xs sm:max-w-md md:max-w-xl m-5 h-auto flex flex-col shadow-lg rounded-xl bg-gray-700 dark:bg-yellow-200"
 >
 	<div class="topPart md:flex-shrink-0">
 		<img
@@ -17,16 +17,16 @@
 	</div>
 	<div class="bottomPart w-full h-full grid grid-cols-2 items-center justify-items-center">
 		<div class="p-5 testi flex flex-col gap-5">
-			<h2 class="text-left text-xl md:text-2xl font-semibold text-yellow-300">
+			<h2 class="text-left text-xl md:text-2xl font-semibold text-yellow-300 dark:text-gray-800">
 				{nome}
 			</h2>
-			<p class="text-sm md:text-md text-yellow-200">
+			<p class="text-sm md:text-md text-yellow-200 dark:text-gray-700">
 				Tipo: <span class="italic"> {tipo}</span>
 			</p>
 		</div>
 		<a
 			href="/progetti/{nome}"
-			class="flex w-min whitespace-nowrap h-1/3 items-center bg-yellow-200 text-gray-700 hover:scale-110 hover:bg-yellow-300 cursor-pointer first-letter:duration-100 transition-all  ease-linear p-3  rounded-md font-semibold"
+			class="flex w-min whitespace-nowrap h-1/3 items-center bg-yellow-200 dark:bg-gray-700 text-gray-700 dark:text-yellow-200  hover:scale-110 hover:bg-yellow-300 dark:hover:bg-gray-800 cursor-pointer first-letter:duration-100 transition-all  ease-linear p-3  rounded-md font-semibold"
 		>
 			More Info
 		</a>

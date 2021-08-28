@@ -11,7 +11,7 @@
 <!-- svelte-ignore a11y-mouse-events-have-key-events -->
 <div
 	class="	main m-auto grid gap-1 
-		  bg-gray-700 rounded-xl 
+		  bg-gray-700 dark:bg-yellow-200 rounded-xl 
             p-2 
 			hover:scale-105 transition-all 
             duration-100 
@@ -29,7 +29,10 @@
 	/>
 
 	{#if status}
-		<h1 transition:fly={{ duration: 50 }} class="text-xl font-black  m-auto text-yellow-200">
+		<h1
+			transition:fly={{ duration: 50 }}
+			class="text-xl font-black  m-auto dark:text-gray-700 text-yellow-200"
+		>
 			{titolo}
 		</h1>
 	{/if}
