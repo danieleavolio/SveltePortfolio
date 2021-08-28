@@ -25,7 +25,7 @@
 		class="container bg-yellow-100 w-11/12 h-auto sm:h-screen rounded-lg sm:grid sm:grid-cols-2 grid-rows-1 m-auto "
 	>
 		<div class="info m-auto flex flex-col h-auto md:h-3/4 gap-5 ">
-			<div class="cnt-image m-auto hover:scale-110 duration-100 ">
+			<div class="cnt-image m-auto hover:scale-110 duration-100 mt-5">
 				<img
 					class="border-4 border-gray-600 rounded-full h-72 w-72 shadow-md"
 					src="images\avatar.jpg"
