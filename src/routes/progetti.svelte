@@ -28,7 +28,7 @@
 		<div class="boxCentrale mt-5 h-auto md:h-screen flex flex-row">
 			<div
 				style="overflow: auto;"
-				class="boxProgetti grid sm:flex sm:flex-row overflow-auto m-auto gap-5"
+				class="boxProgetti  sm:flex sm:flex-row overflow-auto m-auto gap-5"
 			>
 				{#each $progetti as progetto}
 					<ProjectCard {...progetto} />
