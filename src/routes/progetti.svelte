@@ -27,7 +27,6 @@
 		<h2 class="text-7xl text-gray-700 font-black text-center m-5">Progetti</h2>
 		<div class="boxCentrale mt-5 h-auto md:h-screen flex flex-row">
 			<div
-				transition:slide
 				style="overflow: auto;"
 				class="boxProgetti grid sm:flex sm:flex-row overflow-auto m-auto gap-5"
 			>
