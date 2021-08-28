@@ -24,6 +24,7 @@
 >
 	<img
 		class="w-30 h-30 flex m-auto p-1 rounded-xl "
+		style="scroll-snap-align:center;"
 		src="icons\languages\{titolo.toLowerCase()}.png"
 		alt=""
 	/>

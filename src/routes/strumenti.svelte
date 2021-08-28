@@ -31,7 +31,11 @@
 			<h2 class="text-5xl dark:text-yellow-200 text-gray-700 font-black text-center m-5">
 				Linguaggi e Strumenti
 			</h2>
-			<div transition:slide class="boxLinguaggi grid grid-cols-1 md:grid-cols-2 gap-6 m-auto">
+			<div
+				transition:slide
+				class="boxLinguaggi grid grid-cols-1 md:grid-cols-2 gap-6 m-auto"
+				style="scroll-behavior: smooth;"
+			>
 				{#each strAndLinguaggi as linguaggio}
 					<LanguageBox titolo={linguaggio.name} />
 				{/each}

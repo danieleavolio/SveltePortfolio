@@ -32,14 +32,10 @@
 		<div class="boxCentrale mt-5 h-screen flex flex-row ">
 			<div
 				style="scroll-snap-type: x  mandatory; overflow-x: scroll; scroll-behavior: smooth;"
-				class="boxProgetti flex flex-row overflow-auto m-auto gap-5 h-auto overflow-x-hidden "
+				class="boxProgetti flex flex-row overflow-auto m-auto h-auto overflow-x-hidden "
 			>
 				{#each $progetti as progetto}
-					<ProjectCard
-						nome="{progetto.nome},"
-						tipo="{progetto.tipo},"
-						immagine={progetto.immagine}
-					/>
+					<ProjectCard nome={progetto.nome} tipo={progetto.tipo} immagine={progetto.immagine} />
 				{/each}
 			</div>
 		</div>

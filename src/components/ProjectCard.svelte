@@ -6,7 +6,7 @@
 
 <!-- svelte-ignore a11y-mouse-events-have-key-events -->
 <div
-	class="max-w-xs sm:max-w-md md:max-w-xl m-5 h-auto flex flex-col shadow-lg rounded-xl bg-gray-700 dark:bg-yellow-200"
+	class="max-w-xs sm:max-w-md md:max-w-xl m-14 h-auto flex flex-col shadow-lg rounded-xl bg-gray-700 dark:bg-yellow-200"
 	style="scroll-snap-align:center;"
 >
 	<div class="topPart md:flex-shrink-0">
