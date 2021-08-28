@@ -33,7 +33,7 @@
 	<!-- TYPE BELOW IS PROBABLY: 'website' or 'article' or look on https://ogp.me/#types -->
 	<meta property="og:type" content="website" />
 </head>
-<body class="dark:bg-gray-700" />
+<body class="dark:bg-gray-700 scroll" />
 
 <title>Daniele Avolio</title>
 <TransitionComponent>

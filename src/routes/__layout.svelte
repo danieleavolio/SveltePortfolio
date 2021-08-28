@@ -25,6 +25,42 @@
 		h1 {
 			font-family: 'Libre Baskerville', serif;
 		}
+
+		/* width */
+		::-webkit-scrollbar {
+			width: 20px;
+		}
+
+		/* Track */
+		::-webkit-scrollbar-track {
+			box-shadow: inset 0 0 5px grey;
+			border-radius: 10px;
+		}
+
+		/* Handle */
+		::-webkit-scrollbar-thumb {
+			background: #374151;
+			border-radius: 8px;
+		}
+
+		@media (prefers-color-scheme: dark) {
+			/* width */
+			::-webkit-scrollbar {
+				width: 20px;
+			}
+
+			/* Track */
+			::-webkit-scrollbar-track {
+				box-shadow: inset 0 0 5px grey;
+				border-radius: 10px;
+			}
+
+			/* Handle */
+			::-webkit-scrollbar-thumb {
+				background: #fde68a;
+				border-radius: 8px;
+			}
+		}
 	</style>
 </svelte:head>
 <slot />
