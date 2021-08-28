@@ -28,7 +28,7 @@
 			<div class="cnt-image m-auto hover:scale-110 duration-100 ">
 				<img
 					class="border-4 border-gray-600 rounded-full h-72 w-72 shadow-md"
-					src="\src\images\avatar.jpg"
+					src="images\avatar.jpg"
 					alt=""
 				/>
 			</div>
@@ -74,7 +74,7 @@
 					<a href={social.link} target="_blank">
 						<img
 							class="h-10 mb-5 w-10 cursor-pointer opacity-75 hover:opacity-100 hover:scale-125 transition-all duration-150 "
-							src="src\icons\{social.name}.svg"
+							src="icons\{social.name}.svg"
 							alt=""
 						/>
 					</a>

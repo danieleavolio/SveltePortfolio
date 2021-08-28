@@ -15,7 +15,7 @@
 			<div class="left h-auto m-auto flex w-auto md:flex-shrink-0">
 				<img
 					class="  sm:max-w-lg  lg:max-w-2xl xl:max-w-3xl rounded-t-lg xl:rounded-xl xl:rounded-r-none shadow-lg"
-					src="src\images\contact.png"
+					src="images\contact.png"
 					alt=""
 				/>
 			</div>

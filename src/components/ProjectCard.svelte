@@ -11,7 +11,7 @@
 	<div class="topPart md:flex-shrink-0">
 		<img
 			class=" max-w-xs sm:max-w-md md:max-w-lg rounded-xl rounded-b-none"
-			src="src\images\projects\{immagine}"
+			src="images\projects\{immagine}"
 			alt=""
 		/>
 	</div>

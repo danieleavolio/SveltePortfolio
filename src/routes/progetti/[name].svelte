@@ -31,7 +31,7 @@
 		>
 			<img
 				class="flex-shrink-0 rounded-t-xl  xl:w-1/2 xl:h-1/2 xl:rounded-xl xl:rounded-r-none"
-				src="..\src\images\projects\{immagine}"
+				src="..\images\projects\{immagine}"
 				alt=""
 			/>
 			<div class="right flex flex-col">

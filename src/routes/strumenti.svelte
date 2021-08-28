@@ -9,7 +9,7 @@
 		{ name: 'Javascript' },
 		{ name: 'Java' },
 		{ name: 'Python' },
-		{ name: 'C++' },
+		{ name: 'Cpp' },
 		{ name: 'CSS' },
 		{ name: 'HTML' },
 		{ name: 'Perl' },
