@@ -20,20 +20,7 @@
 	];
 </script>
 
-<head>
-	<meta property="’og:title’" content="Daniele Avolio Dev" />
-	<meta property="’og:image’" content="https://imgur.com/a/3uRNcKO" />
-	<meta
-		property="’og:description’"
-		content="Sono Daniele Avolio, programmatore e sviluppatore. Principalmente mi occupo di sviluppo web."
-	/>
-	<meta property="’og:url’" content="www.danieleavolio.it" />
-	<meta property="og:image:width" content="1920" />
-	<meta property="og:image:height" content="1080" />
-	<!-- TYPE BELOW IS PROBABLY: 'website' or 'article' or look on https://ogp.me/#types -->
-	<meta property="og:type" content="website" />
-</head>
-<body class="dark:bg-gray-700 scroll" />
+<body class="dark:bg-gray-700" />
 
 <title>Daniele Avolio</title>
 <TransitionComponent>

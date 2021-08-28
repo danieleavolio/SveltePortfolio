@@ -5,6 +5,36 @@
 <Nav />
 
 <svelte:head>
+	<!-- HTML Meta Tags -->
+	<title>Daniele Avolio Web Developer</title>
+	<meta
+		name="description"
+		content="Sono Daniele Avolio, programmatore e sviluppatore. Principalmente mi occupo di sviluppo web. Mi appassiona il mondo della tecnologia e della programmazione web."
+	/>
+
+	<!-- Facebook Meta Tags -->
+	<meta property="og:url" content="https://www.danieleavolio.it/" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Daniele Avolio Web Developer" />
+	<meta
+		property="og:description"
+		content="Sono Daniele Avolio, programmatore e sviluppatore. Principalmente mi occupo di sviluppo web. Mi appassiona il mondo della tecnologia e della programmazione web."
+	/>
+	<meta property="og:image" content="https://imgur.com/a/EQ0MruQ" />
+
+	<!-- Twitter Meta Tags -->
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta property="twitter:domain" content="danieleavolio.it" />
+	<meta property="twitter:url" content="https://www.danieleavolio.it/" />
+	<meta name="twitter:title" content="Daniele Avolio Web Developer" />
+	<meta
+		name="twitter:description"
+		content="Sono Daniele Avolio, programmatore e sviluppatore. Principalmente mi occupo di sviluppo web. Mi appassiona il mondo della tecnologia e della programmazione web."
+	/>
+	<meta name="twitter:image" content="https://imgur.com/a/EQ0MruQ" />
+
+	<!-- Meta Tags Generated via https://www.opengraph.xyz -->
+
 	<link rel="preconnect" href="https://fonts.googleapis.com" />
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 	<link
