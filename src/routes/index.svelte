@@ -5,15 +5,15 @@
 	let socials = [
 		{
 			name: 'twitter',
-			link: ''
+			link: 'https://twitter.com/avolio_daniele'
 		},
 		{
 			name: 'github',
-			link: ''
+			link: 'https://github.com/lovaion'
 		},
 		{
 			name: 'instagram',
-			link: ''
+			link: 'https://www.instagram.com/oh_dagne/?hl=it'
 		},
 		{ name: 'discord', link: 'https://discordapp.com/users/0657/' }
 	];
@@ -22,7 +22,7 @@
 <title>Daniele Avolio</title>
 <TransitionComponent>
 	<div
-		class="container bg-yellow-100 w-11/12 h-screen rounded-lg sm:grid sm:grid-cols-2 grid-rows-1 m-auto "
+		class="container bg-yellow-100 w-11/12 h-auto sm:h-screen rounded-lg sm:grid sm:grid-cols-2 grid-rows-1 m-auto "
 	>
 		<div class="info m-auto flex flex-col h-auto md:h-3/4 gap-5 ">
 			<div class="cnt-image m-auto hover:scale-110 duration-100 ">
@@ -42,6 +42,7 @@
 			</div>
 			<a
 				href="https://drive.google.com/file/d/1YYLo_PTYPDJEwrUOVGqychMAdH1QsNvq/view?usp=sharing"
+				target="_blank"
 				class=" hover:scale-125 hover:text-yellow-200 mx-auto my-5 bg-gray-600 rounded p-2 h-min max-w-sm font-semibold text-white hover:bg-gray-700 transition-all duration-150 ease-linear center"
 			>
 				Download CV
@@ -62,19 +63,21 @@
 					<span class="font-semibold text-yellow-200 md:text-2xl text-xl">sviluppo Front-End</span>.
 				</p>
 				<p class="mx-5 pb-5 md:text-xl text-md text-yellow-100">
-					Puoi navigare sul sito e vedere tutti i miei <a href="/progetti"
+					Puoi navigare sul sito e vedere tutti i miei <a href="/progetti" target="_blank"
 						><span class="font-semibold text-yellow-200 md:text-2xl text-xl">progetti</span></a
 					>, il mio curriculum e i miei contatti!
 				</p>
 			</div>
 
-			<div class="m-5 grid grid-cols-4 space-x-5 place-items-center">
+			<div class="m-5 grid grid-cols-4 h-auto space-x-5 place-items-center">
 				{#each socials as social}
-					<img
-						class="h-10 mb-5 w-10 cursor-pointer opacity-75 hover:opacity-100 hover:scale-125 transition-all duration-150 "
-						src="src\icons\{social}.svg"
-						alt=""
-					/>
+					<a href={social.link} target="_blank">
+						<img
+							class="h-10 mb-5 w-10 cursor-pointer opacity-75 hover:opacity-100 hover:scale-125 transition-all duration-150 "
+							src="src\icons\{social.name}.svg"
+							alt=""
+						/>
+					</a>
 				{/each}
 			</div>
 		</div>

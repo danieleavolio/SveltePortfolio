@@ -43,6 +43,7 @@
 				</div>
 				<a
 					class="p-5 m-2 m-auto mb-5 md:m-5 bg-green-500 hover:bg-green-400 duration-100 ease-in w-min whitespace-nowrap rounded-lg flex flex-row align-middle items-center text-white"
+					target="_blank"
 					href={repo}
 				>
 					<svg

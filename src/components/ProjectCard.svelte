@@ -1,6 +1,4 @@
 <script>
-	import { fly } from 'svelte/transition';
-
 	export let nome;
 	export let tipo;
 	export let immagine;
@@ -28,7 +26,7 @@
 		</div>
 		<a
 			href="/progetti/{nome}"
-			class="bg-yellow-200 items-center hover:bg-yellow-300 h-1/3 cursor-pointer flex m-auto  duration-100 transition-all  ease-in p-3  rounded-md font-semibold"
+			class="bg-yellow-200 items-center text-gray-700 hover:scale-110 hover:bg-yellow-300 h-1/3 cursor-pointer flex m-auto  duration-100 transition-all  ease-in p-3  rounded-md font-semibold"
 		>
 			More Info
 		</a>
