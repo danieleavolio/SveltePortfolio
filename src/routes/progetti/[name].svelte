@@ -27,11 +27,11 @@
 	<h2 class="text-center text-5xl m-5 font-black dark:text-yellow-200 text-gray-700 ">{name}</h2>
 	<div class="container w-auto h-screen m-auto flex">
 		<div
-			class="card w-3/4 md:w-3/4 xl:w-max xl:h-max dark:bg-yellow-200 bg-gray-700 grid xl:flex m-auto gap- rounded-3xl"
+			class="card w-3/4 md:w-3/4 xl:w-max xl:h-max dark:bg-yellow-200 bg-gray-700 grid xl:flex m-auto gap- rounded-3xl hover:shadow-lg hover:scale-105 duration-100 ease-linear"
 		>
 			<img
 				class="flex-shrink-0 rounded-t-xl  xl:w-1/2 xl:h-1/2 xl:rounded-xl xl:rounded-r-none"
-				src="..\images\projects\{immagine}"
+				src="..\images\projects\{immagine}.jpg"
 				alt=""
 			/>
 			<div class="right flex flex-col">

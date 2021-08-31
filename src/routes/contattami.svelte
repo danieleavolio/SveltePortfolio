@@ -12,7 +12,7 @@
 		class="container dark:bg-gray-700 bg-yellow-100 items-center justify-center h-screen flex flex-col gap-4 rounded-lg m-auto"
 	>
 		<div
-			class="boxCentrale m-5 bg-gray-700 dark:bg-yellow-200 max-w-lg lg:max-w-2xl xl:max-w-full xl:flex flex-row rounded-xl"
+			class="boxCentrale m-5 bg-gray-700 dark:bg-yellow-200 max-w-lg lg:max-w-2xl xl:max-w-full xl:flex flex-row rounded-xl hover:shadow-lg duration-100 ease-linear"
 		>
 			<div class="left h-auto m-auto flex w-auto md:flex-shrink-0">
 				<img

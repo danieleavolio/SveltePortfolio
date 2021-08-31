@@ -2406,9 +2406,9 @@ function init(settings = default_settings) {
     amp: false,
     dev: false,
     entry: {
-      file: "/./_app/start-467f84b6.js",
+      file: "/./_app/start-584ec314.js",
       css: ["/./_app/assets/start-8077b9bf.css"],
-      js: ["/./_app/start-467f84b6.js", "/./_app/chunks/vendor-f5032ad3.js"]
+      js: ["/./_app/start-584ec314.js", "/./_app/chunks/vendor-dd8e7245.js"]
     },
     fetched: void 0,
     floc: false,
@@ -2441,7 +2441,7 @@ function init(settings = default_settings) {
 var d = decodeURIComponent;
 var empty = () => ({});
 var manifest = {
-  assets: [{ "file": "favicon.png", "size": 9316, "type": "image/png" }, { "file": "icons/burger.png", "size": 19470, "type": "image/png" }, { "file": "icons/discord.svg", "size": 1374, "type": "image/svg+xml" }, { "file": "icons/github.svg", "size": 822, "type": "image/svg+xml" }, { "file": "icons/instagram.png", "size": 19107, "type": "image/png" }, { "file": "icons/instagram.svg", "size": 1808, "type": "image/svg+xml" }, { "file": "icons/languages/apache.png", "size": 16333, "type": "image/png" }, { "file": "icons/languages/c.png", "size": 24527, "type": "image/png" }, { "file": "icons/languages/ceylon.png", "size": 24551, "type": "image/png" }, { "file": "icons/languages/cmake.png", "size": 24521, "type": "image/png" }, { "file": "icons/languages/coffeescript.png", "size": 28673, "type": "image/png" }, { "file": "icons/languages/cpp.png", "size": 25183, "type": "image/png" }, { "file": "icons/languages/csharp.png", "size": 27581, "type": "image/png" }, { "file": "icons/languages/css.png", "size": 15104, "type": "image/png" }, { "file": "icons/languages/dart.png", "size": 26587, "type": "image/png" }, { "file": "icons/languages/eclipse.png", "size": 27194, "type": "image/png" }, { "file": "icons/languages/elixir.png", "size": 24943, "type": "image/png" }, { "file": "icons/languages/erlang.png", "size": 15444, "type": "image/png" }, { "file": "icons/languages/git.png", "size": 13615, "type": "image/png" }, { "file": "icons/languages/go.png", "size": 25812, "type": "image/png" }, { "file": "icons/languages/golo.png", "size": 57168, "type": "image/png" }, { "file": "icons/languages/gradle.png", "size": 24053, "type": "image/png" }, { "file": "icons/languages/groovy.png", "size": 34541, "type": "image/png" }, { "file": "icons/languages/handlebars.png", "size": 15885, "type": "image/png" }, { "file": "icons/languages/html.png", "size": 13819, "type": "image/png" }, { "file": "icons/languages/intellijidea.png", "size": 10526, "type": "image/png" }, { "file": "icons/languages/java.png", "size": 32471, "type": "image/png" }, { "file": "icons/languages/javascript.png", "size": 18282, "type": "image/png" }, { "file": "icons/languages/json.png", "size": 49807, "type": "image/png" }, { "file": "icons/languages/kotlin.png", "size": 14889, "type": "image/png" }, { "file": "icons/languages/less.png", "size": 29534, "type": "image/png" }, { "file": "icons/languages/lua.png", "size": 21903, "type": "image/png" }, { "file": "icons/languages/markdown.png", "size": 11237, "type": "image/png" }, { "file": "icons/languages/perl.png", "size": 34370, "type": "image/png" }, { "file": "icons/languages/php.png", "size": 18590, "type": "image/png" }, { "file": "icons/languages/powershell.png", "size": 21368, "type": "image/png" }, { "file": "icons/languages/python.png", "size": 20080, "type": "image/png" }, { "file": "icons/languages/ruby.png", "size": 46995, "type": "image/png" }, { "file": "icons/languages/rust.png", "size": 38825, "type": "image/png" }, { "file": "icons/languages/sass.png", "size": 39328, "type": "image/png" }, { "file": "icons/languages/scala.png", "size": 14011, "type": "image/png" }, { "file": "icons/languages/shell.png", "size": 20416, "type": "image/png" }, { "file": "icons/languages/slim.png", "size": 16365, "type": "image/png" }, { "file": "icons/languages/sql.png", "size": 25994, "type": "image/png" }, { "file": "icons/languages/stylus.png", "size": 50699, "type": "image/png" }, { "file": "icons/languages/swift.png", "size": 29827, "type": "image/png" }, { "file": "icons/languages/tailwind css.png", "size": 6024, "type": "image/png" }, { "file": "icons/languages/toml.png", "size": 6623, "type": "image/png" }, { "file": "icons/languages/twig.png", "size": 19166, "type": "image/png" }, { "file": "icons/languages/typescript.png", "size": 15925, "type": "image/png" }, { "file": "icons/languages/unknown.png", "size": 19129, "type": "image/png" }, { "file": "icons/languages/vscode.png", "size": 17648, "type": "image/png" }, { "file": "icons/languages/vue.png", "size": 29070, "type": "image/png" }, { "file": "icons/languages/xml.png", "size": 16936, "type": "image/png" }, { "file": "icons/languages/yaml.png", "size": 8514, "type": "image/png" }, { "file": "icons/twitter.svg", "size": 602, "type": "image/svg+xml" }, { "file": "images/avatar.jpg", "size": 284840, "type": "image/jpeg" }, { "file": "images/contact.png", "size": 75118, "type": "image/png" }, { "file": "images/projects/animehook.png", "size": 661350, "type": "image/png" }, { "file": "images/projects/donkeykong.jpg", "size": 1907184, "type": "image/jpeg" }, { "file": "images/projects/gofgui.png", "size": 1191313, "type": "image/png" }, { "file": "images/projects/gsillabus.png", "size": 439523, "type": "image/png" }, { "file": "images/projects/heroroad.png", "size": 2210534, "type": "image/png" }, { "file": "images/projects/imissmybus.png", "size": 371072, "type": "image/png" }, { "file": "images/projects/netlab.jpg", "size": 3093881, "type": "image/jpeg" }, { "file": "images/projects/personalPort.png", "size": 441604, "type": "image/png" }, { "file": "images/projects/pswgen.png", "size": 228874, "type": "image/png" }],
+  assets: [{ "file": "favicon.png", "size": 9316, "type": "image/png" }, { "file": "icons/burger.png", "size": 19470, "type": "image/png" }, { "file": "icons/discord.svg", "size": 1374, "type": "image/svg+xml" }, { "file": "icons/github.svg", "size": 822, "type": "image/svg+xml" }, { "file": "icons/instagram.png", "size": 19107, "type": "image/png" }, { "file": "icons/instagram.svg", "size": 1808, "type": "image/svg+xml" }, { "file": "icons/languages/apache.png", "size": 16333, "type": "image/png" }, { "file": "icons/languages/c.png", "size": 24527, "type": "image/png" }, { "file": "icons/languages/ceylon.png", "size": 24551, "type": "image/png" }, { "file": "icons/languages/cmake.png", "size": 24521, "type": "image/png" }, { "file": "icons/languages/coffeescript.png", "size": 28673, "type": "image/png" }, { "file": "icons/languages/cpp.png", "size": 25183, "type": "image/png" }, { "file": "icons/languages/csharp.png", "size": 27581, "type": "image/png" }, { "file": "icons/languages/css.png", "size": 15104, "type": "image/png" }, { "file": "icons/languages/dart.png", "size": 26587, "type": "image/png" }, { "file": "icons/languages/eclipse.png", "size": 27194, "type": "image/png" }, { "file": "icons/languages/elixir.png", "size": 24943, "type": "image/png" }, { "file": "icons/languages/erlang.png", "size": 15444, "type": "image/png" }, { "file": "icons/languages/git.png", "size": 13615, "type": "image/png" }, { "file": "icons/languages/go.png", "size": 25812, "type": "image/png" }, { "file": "icons/languages/golo.png", "size": 57168, "type": "image/png" }, { "file": "icons/languages/gradle.png", "size": 24053, "type": "image/png" }, { "file": "icons/languages/groovy.png", "size": 34541, "type": "image/png" }, { "file": "icons/languages/handlebars.png", "size": 15885, "type": "image/png" }, { "file": "icons/languages/html.png", "size": 13819, "type": "image/png" }, { "file": "icons/languages/intellijidea.png", "size": 10526, "type": "image/png" }, { "file": "icons/languages/java.png", "size": 32471, "type": "image/png" }, { "file": "icons/languages/javascript.png", "size": 18282, "type": "image/png" }, { "file": "icons/languages/json.png", "size": 49807, "type": "image/png" }, { "file": "icons/languages/kotlin.png", "size": 14889, "type": "image/png" }, { "file": "icons/languages/less.png", "size": 29534, "type": "image/png" }, { "file": "icons/languages/lua.png", "size": 21903, "type": "image/png" }, { "file": "icons/languages/markdown.png", "size": 11237, "type": "image/png" }, { "file": "icons/languages/perl.png", "size": 34370, "type": "image/png" }, { "file": "icons/languages/php.png", "size": 18590, "type": "image/png" }, { "file": "icons/languages/powershell.png", "size": 21368, "type": "image/png" }, { "file": "icons/languages/python.png", "size": 20080, "type": "image/png" }, { "file": "icons/languages/ruby.png", "size": 46995, "type": "image/png" }, { "file": "icons/languages/rust.png", "size": 38825, "type": "image/png" }, { "file": "icons/languages/sass.png", "size": 39328, "type": "image/png" }, { "file": "icons/languages/scala.png", "size": 14011, "type": "image/png" }, { "file": "icons/languages/shell.png", "size": 20416, "type": "image/png" }, { "file": "icons/languages/slim.png", "size": 16365, "type": "image/png" }, { "file": "icons/languages/sql.png", "size": 25994, "type": "image/png" }, { "file": "icons/languages/stylus.png", "size": 50699, "type": "image/png" }, { "file": "icons/languages/swift.png", "size": 29827, "type": "image/png" }, { "file": "icons/languages/tailwind css.png", "size": 6024, "type": "image/png" }, { "file": "icons/languages/toml.png", "size": 6623, "type": "image/png" }, { "file": "icons/languages/twig.png", "size": 19166, "type": "image/png" }, { "file": "icons/languages/typescript.png", "size": 15925, "type": "image/png" }, { "file": "icons/languages/unknown.png", "size": 19129, "type": "image/png" }, { "file": "icons/languages/vscode.png", "size": 17648, "type": "image/png" }, { "file": "icons/languages/vue.png", "size": 29070, "type": "image/png" }, { "file": "icons/languages/xml.png", "size": 16936, "type": "image/png" }, { "file": "icons/languages/yaml.png", "size": 8514, "type": "image/png" }, { "file": "icons/linkedin.svg", "size": 424, "type": "image/svg+xml" }, { "file": "icons/twitter.svg", "size": 602, "type": "image/svg+xml" }, { "file": "images/avatar.jpg", "size": 284840, "type": "image/jpeg" }, { "file": "images/contact.png", "size": 75118, "type": "image/png" }, { "file": "images/projects/animehook.jpg", "size": 293589, "type": "image/jpeg" }, { "file": "images/projects/donkeykong.jpg", "size": 1907184, "type": "image/jpeg" }, { "file": "images/projects/gofgui.jpg", "size": 323227, "type": "image/jpeg" }, { "file": "images/projects/gsillabus.jpg", "size": 353836, "type": "image/jpeg" }, { "file": "images/projects/heroroad.jpg", "size": 347219, "type": "image/jpeg" }, { "file": "images/projects/imissmybus.jpg", "size": 198670, "type": "image/jpeg" }, { "file": "images/projects/netlab.jpg", "size": 3093881, "type": "image/jpeg" }, { "file": "images/projects/personalPort.jpg", "size": 289604, "type": "image/jpeg" }, { "file": "images/projects/pswgen.jpg", "size": 340159, "type": "image/jpeg" }],
   layout: "src/routes/__layout.svelte",
   error: ".svelte-kit/build/components/error.svelte",
   routes: [
@@ -2510,7 +2510,7 @@ var module_lookup = {
     return progetti;
   })
 };
-var metadata_lookup = { "src/routes/__layout.svelte": { "entry": "/./_app/pages/__layout.svelte-e9c19c1b.js", "css": ["/./_app/assets/pages/__layout.svelte-f1715a0d.css"], "js": ["/./_app/pages/__layout.svelte-e9c19c1b.js", "/./_app/chunks/vendor-f5032ad3.js"], "styles": [] }, ".svelte-kit/build/components/error.svelte": { "entry": "/./_app/error.svelte-09a7a10c.js", "css": [], "js": ["/./_app/error.svelte-09a7a10c.js", "/./_app/chunks/vendor-f5032ad3.js"], "styles": [] }, "src/routes/index.svelte": { "entry": "/./_app/pages/index.svelte-38602f2f.js", "css": [], "js": ["/./_app/pages/index.svelte-38602f2f.js", "/./_app/chunks/vendor-f5032ad3.js", "/./_app/chunks/Footer-1896bff2.js"], "styles": [] }, "src/routes/contattami.svelte": { "entry": "/./_app/pages/contattami.svelte-f8820f5f.js", "css": [], "js": ["/./_app/pages/contattami.svelte-f8820f5f.js", "/./_app/chunks/vendor-f5032ad3.js", "/./_app/chunks/Footer-1896bff2.js"], "styles": [] }, "src/routes/strumenti.svelte": { "entry": "/./_app/pages/strumenti.svelte-f63422f7.js", "css": [], "js": ["/./_app/pages/strumenti.svelte-f63422f7.js", "/./_app/chunks/vendor-f5032ad3.js", "/./_app/chunks/Footer-1896bff2.js"], "styles": [] }, "src/routes/progetti/[name].svelte": { "entry": "/./_app/pages/progetti/[name].svelte-1521b60f.js", "css": [], "js": ["/./_app/pages/progetti/[name].svelte-1521b60f.js", "/./_app/chunks/vendor-f5032ad3.js", "/./_app/chunks/progetti-22d7e144.js", "/./_app/chunks/Footer-1896bff2.js"], "styles": [] }, "src/routes/progetti.svelte": { "entry": "/./_app/pages/progetti.svelte-f7571074.js", "css": [], "js": ["/./_app/pages/progetti.svelte-f7571074.js", "/./_app/chunks/vendor-f5032ad3.js", "/./_app/chunks/Footer-1896bff2.js", "/./_app/chunks/progetti-22d7e144.js"], "styles": [] } };
+var metadata_lookup = { "src/routes/__layout.svelte": { "entry": "/./_app/pages/__layout.svelte-c5f0b910.js", "css": ["/./_app/assets/pages/__layout.svelte-dd39c316.css"], "js": ["/./_app/pages/__layout.svelte-c5f0b910.js", "/./_app/chunks/vendor-dd8e7245.js"], "styles": [] }, ".svelte-kit/build/components/error.svelte": { "entry": "/./_app/error.svelte-6d95cdf8.js", "css": [], "js": ["/./_app/error.svelte-6d95cdf8.js", "/./_app/chunks/vendor-dd8e7245.js"], "styles": [] }, "src/routes/index.svelte": { "entry": "/./_app/pages/index.svelte-181b70e1.js", "css": [], "js": ["/./_app/pages/index.svelte-181b70e1.js", "/./_app/chunks/vendor-dd8e7245.js", "/./_app/chunks/Footer-11f3c5b7.js"], "styles": [] }, "src/routes/contattami.svelte": { "entry": "/./_app/pages/contattami.svelte-e6b33cce.js", "css": [], "js": ["/./_app/pages/contattami.svelte-e6b33cce.js", "/./_app/chunks/vendor-dd8e7245.js", "/./_app/chunks/Footer-11f3c5b7.js"], "styles": [] }, "src/routes/strumenti.svelte": { "entry": "/./_app/pages/strumenti.svelte-844c57b8.js", "css": [], "js": ["/./_app/pages/strumenti.svelte-844c57b8.js", "/./_app/chunks/vendor-dd8e7245.js", "/./_app/chunks/Footer-11f3c5b7.js"], "styles": [] }, "src/routes/progetti/[name].svelte": { "entry": "/./_app/pages/progetti/[name].svelte-cea87075.js", "css": [], "js": ["/./_app/pages/progetti/[name].svelte-cea87075.js", "/./_app/chunks/vendor-dd8e7245.js", "/./_app/chunks/progetti-ef589e34.js", "/./_app/chunks/Footer-11f3c5b7.js"], "styles": [] }, "src/routes/progetti.svelte": { "entry": "/./_app/pages/progetti.svelte-b6886e24.js", "css": [], "js": ["/./_app/pages/progetti.svelte-b6886e24.js", "/./_app/chunks/vendor-dd8e7245.js", "/./_app/chunks/Footer-11f3c5b7.js", "/./_app/chunks/progetti-ef589e34.js"], "styles": [] } };
 async function load_component(file) {
   return {
     module: await module_lookup[file](),
@@ -2524,27 +2524,27 @@ function render(request, {
   return respond({ ...request, host }, options, { prerender });
 }
 var Nav = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `<nav class="${"bg-gray-700 mx-auto p-2 h-12 sticky top-0 "}"><div class="${"name"}">${``}
+  return `<nav class="${"bg-gray-700 mx-auto p-2 h-12 sticky top-0 dark:bg-yellow-200 z-10 relative"}"><div class="${"name"}">${``}
 
 		${`
-			<a class="${"font-black text-2xl text-yellow-200  mx-5 absolute"}" href="${"/"}">DA</a>`}</div>
-	<div class="${"others  m-auto justify-end mx-10 space-x-5 hidden sm:flex"}"><a class="${" text-2xl font-semibold text-yellow-200 hover:text-yellow-300 ease-in duration-100 transition-all"}" href="${"/"}">Home</a>
-		<a class="${"text-2xl  font-semibold text-yellow-200 hover:text-yellow-300 ease-in duration-100 transition-all"}" href="${"/strumenti"}">Strumenti</a>
-		<a class="${" text-2xl font-semibold text-yellow-200 hover:text-yellow-300 ease-in duration-100 transition-all"}" href="${"/progetti"}">Progetti</a>
-		<a class="${" text-2xl font-semibold text-yellow-200 hover:text-yellow-300 ease-in duration-100 transition-all"}" href="${"/contattami"}">Contattami</a></div>
+			<a class="${"font-black text-2xl dark:text-gray-700 dark:hover:text-gray-600 text-yellow-200  mx-5 absolute"}" href="${"/"}">DA</a>`}</div>
+	<div class="${"others  m-auto justify-end mx-10 space-x-5 hidden sm:flex"}"><a class="${" text-2xl font-semibold dark:text-gray-700 dark:hover:text-gray-600 text-yellow-200 hover:text-yellow-300 ease-in duration-100 transition-all"}" href="${"/"}">Home</a>
+		<a class="${"text-2xl  font-semibold dark:text-gray-700 dark:hover:text-gray-600 text-yellow-200 hover:text-yellow-300 ease-in duration-100 transition-all"}" href="${"/strumenti"}">Strumenti</a>
+		<a class="${" text-2xl font-semibold dark:text-gray-700 dark:hover:text-gray-600 text-yellow-200 hover:text-yellow-300 ease-in duration-100 transition-all"}" href="${"/progetti"}">Progetti</a>
+		<a class="${" text-2xl font-semibold dark:text-gray-700 dark:hover:text-gray-600 text-yellow-200 hover:text-yellow-300 ease-in duration-100 transition-all"}" href="${"/contattami"}">Contattami</a></div>
 
-	<div class="${"dropdown sm:hidden flex justify-end"}"><svg xmlns="${"http://www.w3.org/2000/svg"}" class="${"w-8 h-8 self-center hover:cursor-pointer text-yellow-200 hover:text-yellow-300 duration-75 transition-all"}" fill="${"none"}" viewBox="${"0 0 24 24"}" stroke="${"currentColor"}"><path strokelinecap="${"round"}" strokelinejoin="${"round"}"${add_attribute("strokewidth", 2, 0)} d="${"M4 6h16M4 12h16M4 18h16"}"></path></svg></div>
+	<div class="${"dropdown sm:hidden flex justify-end"}"><svg xmlns="${"http://www.w3.org/2000/svg"}" class="${"w-8 h-8 self-center hover:cursor-pointer dark:text-gray-700 dark:hover:text-gray-600 text-yellow-200 hover:text-yellow-300 duration-75 transition-all"}" fill="${"none"}" viewBox="${"0 0 24 24"}" stroke="${"currentColor"}"><path strokelinecap="${"round"}" strokelinejoin="${"round"}"${add_attribute("strokewidth", 2, 0)} d="${"M4 6h16M4 12h16M4 18h16"}"></path></svg></div>
 	${``}</nav>`;
 });
 var css = {
   code: "@tailwind base;@tailwind components;@tailwind utilities;",
-  map: `{"version":3,"file":"__layout.svelte","sources":["__layout.svelte"],"sourcesContent":["<script>\\r\\n\\timport Nav from '../components/Nav.svelte';\\r\\n<\/script>\\r\\n\\r\\n<Nav />\\r\\n\\r\\n<svelte:head>\\r\\n\\t<link rel=\\"preconnect\\" href=\\"https://fonts.googleapis.com\\" />\\r\\n\\t<link rel=\\"preconnect\\" href=\\"https://fonts.gstatic.com\\" crossorigin />\\r\\n\\t<link\\r\\n\\t\\thref=\\"https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,800;1,100;1,200;1,500;1,700&display=swap\\"\\r\\n\\t\\trel=\\"stylesheet\\"\\r\\n\\t/>\\r\\n\\t<link\\r\\n\\t\\thref=\\"https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap\\"\\r\\n\\t\\trel=\\"stylesheet\\"\\r\\n\\t/>\\r\\n\\r\\n\\t<style>\\r\\n\\t\\tbody {\\r\\n\\t\\t\\tbackground-color: #fff3c7;\\r\\n\\t\\t\\tfont-family: Poppins;\\r\\n\\t\\t\\tscroll-behavior: smooth;\\r\\n\\t\\t}\\r\\n\\t\\th1 {\\r\\n\\t\\t\\tfont-family: 'Libre Baskerville', serif;\\r\\n\\t\\t}\\r\\n\\r\\n\\t\\t/* width */\\r\\n\\t\\t::-webkit-scrollbar {\\r\\n\\t\\t\\twidth: 20px;\\r\\n\\t\\t}\\r\\n\\r\\n\\t\\t/* Track */\\r\\n\\t\\t::-webkit-scrollbar-track {\\r\\n\\t\\t\\tbox-shadow: inset 0 0 5px grey;\\r\\n\\t\\t\\tborder-radius: 10px;\\r\\n\\t\\t}\\r\\n\\r\\n\\t\\t/* Handle */\\r\\n\\t\\t::-webkit-scrollbar-thumb {\\r\\n\\t\\t\\tbackground: #374151;\\r\\n\\t\\t\\tborder-radius: 8px;\\r\\n\\t\\t}\\r\\n\\t</style>\\r\\n</svelte:head>\\r\\n<slot />\\r\\n\\r\\n<style>\\r\\n\\t@tailwind base;\\r\\n\\t@tailwind components;\\r\\n\\t@tailwind utilities;\\r\\n</style>\\r\\n"],"names":[],"mappings":"AAiDC,UAAU,IAAI,CAAC,AACf,UAAU,UAAU,CAAC,AACrB,UAAU,SAAS,CAAC"}`
+  map: `{"version":3,"file":"__layout.svelte","sources":["__layout.svelte"],"sourcesContent":["<script>\\r\\n\\timport Nav from '../components/Nav.svelte';\\r\\n<\/script>\\r\\n\\r\\n<Nav />\\r\\n\\r\\n<svelte:head>\\r\\n\\t<!-- HTML Meta Tags -->\\r\\n\\t<title>Daniele Avolio Web Developer</title>\\r\\n\\t<meta\\r\\n\\t\\tname=\\"description\\"\\r\\n\\t\\tcontent=\\"Sono Daniele Avolio, programmatore e sviluppatore. Principalmente mi occupo di sviluppo web. Mi appassiona il mondo della tecnologia e della programmazione web.\\"\\r\\n\\t/>\\r\\n\\r\\n\\t<!-- Facebook Meta Tags -->\\r\\n\\t<meta property=\\"og:url\\" content=\\"https://www.danieleavolio.it/\\" />\\r\\n\\t<meta property=\\"og:type\\" content=\\"website\\" />\\r\\n\\t<meta property=\\"og:title\\" content=\\"Daniele Avolio Web Developer\\" />\\r\\n\\t<meta\\r\\n\\t\\tproperty=\\"og:description\\"\\r\\n\\t\\tcontent=\\"Sono Daniele Avolio, programmatore e sviluppatore. Principalmente mi occupo di sviluppo web. Mi appassiona il mondo della tecnologia e della programmazione web.\\"\\r\\n\\t/>\\r\\n\\t<meta property=\\"og:image\\" content=\\"https://i.imgur.com/jtjXJOT.png\\" />\\r\\n\\r\\n\\t<!-- Twitter Meta Tags -->\\r\\n\\t<meta name=\\"twitter:card\\" content=\\"summary_large_image\\" />\\r\\n\\t<meta property=\\"twitter:domain\\" content=\\"danieleavolio.it\\" />\\r\\n\\t<meta property=\\"twitter:url\\" content=\\"https://www.danieleavolio.it/\\" />\\r\\n\\t<meta name=\\"twitter:title\\" content=\\"Daniele Avolio Web Developer\\" />\\r\\n\\t<meta\\r\\n\\t\\tname=\\"twitter:description\\"\\r\\n\\t\\tcontent=\\"Sono Daniele Avolio, programmatore e sviluppatore. Principalmente mi occupo di sviluppo web. Mi appassiona il mondo della tecnologia e della programmazione web.\\"\\r\\n\\t/>\\r\\n\\t<meta name=\\"twitter:image\\" content=\\"https://i.imgur.com/jtjXJOT.png\\" />\\r\\n\\r\\n\\t<!-- Meta Tags Generated via https://www.opengraph.xyz -->\\r\\n\\r\\n\\t<link rel=\\"preconnect\\" href=\\"https://fonts.googleapis.com\\" />\\r\\n\\t<link rel=\\"preconnect\\" href=\\"https://fonts.gstatic.com\\" crossorigin />\\r\\n\\t<link\\r\\n\\t\\thref=\\"https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,800;1,100;1,200;1,500;1,700&display=swap\\"\\r\\n\\t\\trel=\\"stylesheet\\"\\r\\n\\t/>\\r\\n\\t<link\\r\\n\\t\\thref=\\"https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap\\"\\r\\n\\t\\trel=\\"stylesheet\\"\\r\\n\\t/>\\r\\n\\r\\n\\t<style>\\r\\n\\t\\tbody {\\r\\n\\t\\t\\tbackground-color: #fff3c7;\\r\\n\\t\\t\\tfont-family: Poppins;\\r\\n\\t\\t\\tscroll-behavior: smooth;\\r\\n\\t\\t}\\r\\n\\t\\th1 {\\r\\n\\t\\t\\tfont-family: 'Libre Baskerville', serif;\\r\\n\\t\\t}\\r\\n\\r\\n\\t\\t/* width */\\r\\n\\t\\t::-webkit-scrollbar {\\r\\n\\t\\t\\twidth: 20px;\\r\\n\\t\\t}\\r\\n\\r\\n\\t\\t/* Track */\\r\\n\\t\\t::-webkit-scrollbar-track {\\r\\n\\t\\t\\tbox-shadow: inset 0 0 5px grey;\\r\\n\\t\\t\\tborder-radius: 10px;\\r\\n\\t\\t}\\r\\n\\r\\n\\t\\t/* Handle */\\r\\n\\t\\t::-webkit-scrollbar-thumb {\\r\\n\\t\\t\\tbackground: #374151;\\r\\n\\t\\t\\tborder-radius: 8px;\\r\\n\\t\\t}\\r\\n\\r\\n\\t\\t@media (prefers-color-scheme: dark) {\\r\\n\\t\\t\\t/* width */\\r\\n\\t\\t\\t::-webkit-scrollbar {\\r\\n\\t\\t\\t\\twidth: 20px;\\r\\n\\t\\t\\t}\\r\\n\\r\\n\\t\\t\\t/* Track */\\r\\n\\t\\t\\t::-webkit-scrollbar-track {\\r\\n\\t\\t\\t\\tbox-shadow: inset 0 0 5px grey;\\r\\n\\t\\t\\t\\tborder-radius: 10px;\\r\\n\\t\\t\\t}\\r\\n\\r\\n\\t\\t\\t/* Handle */\\r\\n\\t\\t\\t::-webkit-scrollbar-thumb {\\r\\n\\t\\t\\t\\tbackground: #fde68a;\\r\\n\\t\\t\\t\\tborder-radius: 8px;\\r\\n\\t\\t\\t}\\r\\n\\t\\t}\\r\\n\\t</style>\\r\\n</svelte:head>\\r\\n<slot />\\r\\n\\r\\n<style>\\r\\n\\t@tailwind base;\\r\\n\\t@tailwind components;\\r\\n\\t@tailwind utilities;\\r\\n</style>\\r\\n"],"names":[],"mappings":"AAkGC,UAAU,IAAI,CAAC,AACf,UAAU,UAAU,CAAC,AACrB,UAAU,SAAS,CAAC"}`
 };
 var _layout = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   $$result.css.add(css);
   return `${validate_component(Nav, "Nav").$$render($$result, {}, {}, {})}
 
-${$$result.head += `<link rel="${"preconnect"}" href="${"https://fonts.googleapis.com"}" data-svelte="svelte-10b1xk9"><link rel="${"preconnect"}" href="${"https://fonts.gstatic.com"}" crossorigin data-svelte="svelte-10b1xk9"><link href="${"https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,800;1,100;1,200;1,500;1,700&display=swap"}" rel="${"stylesheet"}" data-svelte="svelte-10b1xk9"><link href="${"https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"}" rel="${"stylesheet"}" data-svelte="svelte-10b1xk9"><style data-svelte="svelte-10b1xk9">body {
+${$$result.head += `${$$result.title = `<title>Daniele Avolio Web Developer</title>`, ""}<meta name="${"description"}" content="${"Sono Daniele Avolio, programmatore e sviluppatore. Principalmente mi occupo di sviluppo web. Mi appassiona il mondo della tecnologia e della programmazione web."}" data-svelte="svelte-1w0u7hy"><meta property="${"og:url"}" content="${"https://www.danieleavolio.it/"}" data-svelte="svelte-1w0u7hy"><meta property="${"og:type"}" content="${"website"}" data-svelte="svelte-1w0u7hy"><meta property="${"og:title"}" content="${"Daniele Avolio Web Developer"}" data-svelte="svelte-1w0u7hy"><meta property="${"og:description"}" content="${"Sono Daniele Avolio, programmatore e sviluppatore. Principalmente mi occupo di sviluppo web. Mi appassiona il mondo della tecnologia e della programmazione web."}" data-svelte="svelte-1w0u7hy"><meta property="${"og:image"}" content="${"https://i.imgur.com/jtjXJOT.png"}" data-svelte="svelte-1w0u7hy"><meta name="${"twitter:card"}" content="${"summary_large_image"}" data-svelte="svelte-1w0u7hy"><meta property="${"twitter:domain"}" content="${"danieleavolio.it"}" data-svelte="svelte-1w0u7hy"><meta property="${"twitter:url"}" content="${"https://www.danieleavolio.it/"}" data-svelte="svelte-1w0u7hy"><meta name="${"twitter:title"}" content="${"Daniele Avolio Web Developer"}" data-svelte="svelte-1w0u7hy"><meta name="${"twitter:description"}" content="${"Sono Daniele Avolio, programmatore e sviluppatore. Principalmente mi occupo di sviluppo web. Mi appassiona il mondo della tecnologia e della programmazione web."}" data-svelte="svelte-1w0u7hy"><meta name="${"twitter:image"}" content="${"https://i.imgur.com/jtjXJOT.png"}" data-svelte="svelte-1w0u7hy"><link rel="${"preconnect"}" href="${"https://fonts.googleapis.com"}" data-svelte="svelte-1w0u7hy"><link rel="${"preconnect"}" href="${"https://fonts.gstatic.com"}" crossorigin data-svelte="svelte-1w0u7hy"><link href="${"https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,800;1,100;1,200;1,500;1,700&display=swap"}" rel="${"stylesheet"}" data-svelte="svelte-1w0u7hy"><link href="${"https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"}" rel="${"stylesheet"}" data-svelte="svelte-1w0u7hy"><style data-svelte="svelte-1w0u7hy">body {
 			background-color: #fff3c7;
 			font-family: Poppins;
 			scroll-behavior: smooth;
@@ -2568,6 +2568,25 @@ ${$$result.head += `<link rel="${"preconnect"}" href="${"https://fonts.googleapi
 		::-webkit-scrollbar-thumb {
 			background: #374151;
 			border-radius: 8px;
+		}
+
+		@media (prefers-color-scheme: dark) {
+			/* width */
+			::-webkit-scrollbar {
+				width: 20px;
+			}
+
+			/* Track */
+			::-webkit-scrollbar-track {
+				box-shadow: inset 0 0 5px grey;
+				border-radius: 10px;
+			}
+
+			/* Handle */
+			::-webkit-scrollbar-thumb {
+				background: #fde68a;
+				border-radius: 8px;
+			}
 		}
 	</style>`, ""}
 ${slots.default ? slots.default({}) : ``}`;
@@ -2606,7 +2625,7 @@ var TransitionComponent = create_ssr_component(($$result, $$props, $$bindings, s
   return `<div>${slots.default ? slots.default({}) : ``}</div>`;
 });
 var Footer = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `<footer class="${"text-center m-2  bottom-0"}">\xA9 2021 All rights reserved. Design &amp; Code by Daniele Avolio.
+  return `<footer class="${"text-center m-2 dark:text-yellow-200 bottom-0"}">\xA9 2021 All rights reserved. Design &amp; Code by Daniele Avolio.
 </footer>`;
 });
 var Routes = create_ssr_component(($$result, $$props, $$bindings, slots) => {
@@ -2626,29 +2645,35 @@ var Routes = create_ssr_component(($$result, $$props, $$bindings, slots) => {
     {
       name: "discord",
       link: "https://discordapp.com/users/0657/"
+    },
+    {
+      name: "linkedin",
+      link: "https://www.linkedin.com/in/daniele-avolio-465aba145/"
     }
   ];
-  return `<title>Daniele Avolio</title>
+  return `<body class="${"dark:bg-gray-700"}"></body>
+
+<title>Daniele Avolio</title>
 ${validate_component(TransitionComponent, "TransitionComponent").$$render($$result, {}, {}, {
-    default: () => `<div class="${"container bg-yellow-100 w-11/12 h-auto sm:h-screen rounded-lg sm:grid sm:grid-cols-2 grid-rows-1 m-auto "}"><div class="${"info m-auto flex flex-col h-auto md:h-3/4 gap-5 "}"><div class="${"cnt-image m-auto hover:scale-110 duration-100 mt-5"}"><img class="${"border-4 border-gray-600 rounded-full h-72 w-72 shadow-md"}" src="${"images\\avatar.jpg"}" alt="${""}"></div>
-			<div class="${"infos shadow-md rounded-md bg-gray-700 p-2"}"><h2 class="${"flex justify-center md:text-2xl text-xl font-semibold text-yellow-200"}">Daniele Avolio
+    default: () => `<div class="${"container dark:bg-gray-700 bg-yellow-100 w-11/12 h-auto sm:h-screen rounded-lg sm:grid sm:grid-cols-2 grid-rows-1 m-auto "}"><div class="${"info m-auto flex flex-col h-auto md:h-3/4 gap-5 "}"><div class="${"cnt-image m-auto hover:scale-110 duration-100 mt-5"}"><img class="${"border-4 dark:border-yellow-200 border-gray-600 rounded-full h-72 w-72 shadow-md"}" src="${"images\\avatar.jpg"}" alt="${""}"></div>
+			<div class="${"infos shadow-md rounded-md dark:bg-yellow-200 bg-gray-700 p-2"}"><h2 class="${"flex justify-center md:text-2xl text-xl font-semibold dark:text-gray-700 text-yellow-200"}">Daniele Avolio
 				</h2>
-				<h3 class="${"flex justify-center md:text-xl text-md text-yellow-200"}">Computer Science student
+				<h3 class="${"flex justify-center md:text-xl text-md dark:text-gray-700 text-yellow-200"}">Computer Science student
 				</h3></div>
-			<a href="${"https://drive.google.com/file/d/1YYLo_PTYPDJEwrUOVGqychMAdH1QsNvq/view?usp=sharing"}" target="${"_blank"}" class="${" hover:scale-125 hover:text-yellow-200 mx-auto my-5 bg-gray-600 rounded p-2 h-min max-w-sm font-semibold text-white hover:bg-gray-700 transition-all duration-150 ease-linear center"}">Download CV
+			<a href="${"https://drive.google.com/file/d/1YYLo_PTYPDJEwrUOVGqychMAdH1QsNvq/view?usp=sharing"}" target="${"_blank"}" class="${" hover:scale-125 hover:text-yellow-300 dark:text-gray-700 text-yellow-200 dark:hover:text-gray-600 mx-auto my-5 dark:bg-yellow-200  bg-gray-600 rounded p-2 h-min max-w-sm font-semibold dark:hover:bg-yellow-300  hover:bg-gray-700 transition-all duration-150 ease-linear center"}">Download CV
 			</a></div>
-		<div class="${"bio m-auto hover:scale-105 duration-100"}"><div class="${"testo shadow-xl rounded-lg bg-gray-700"}"><h1 class="${"flex justify-left p-5 md:text-4xl text-3xl font-semibold text-yellow-200"}">Ciao! \u{1F44B}
+		<div class="${"bio m-auto hover:scale-105 duration-100"}"><div class="${"testo shadow-xl rounded-lg dark:bg-yellow-200  bg-gray-700"}"><h1 class="${"flex justify-left p-5 md:text-4xl text-3xl font-semibold dark:text-gray-700 text-yellow-200"}">Ciao! \u{1F44B}
 				</h1>
-				<p class="${"mx-5 md:text-xl text-md text-yellow-100"}">Mi chiamo Daniele.</p>
-				<p class="${"mx-5 md:text-xl text-md text-yellow-100"}">Sono uno studente di <span class="${"font-semibold text-yellow-200 md:text-2xl text-xl"}">Informatica</span>
+				<p class="${"mx-5 md:text-xl text-md dark:text-gray-600 text-yellow-100"}">Mi chiamo Daniele.</p>
+				<p class="${"mx-5 md:text-xl text-md dark:text-gray-600 text-yellow-100"}">Sono uno studente di <span class="${"font-semibold dark:text-gray-700 text-yellow-200 md:text-2xl text-xl"}">Informatica</span>
 					dell&#39;Universit\xE0 della calabria e sono appassionato di tecnologia e programmazione. Il mio punto
 					forte \xE8 lo
-					<span class="${"font-semibold text-yellow-200 md:text-2xl text-xl"}">sviluppo Front-End</span>.
+					<span class="${"font-semibold dark:text-gray-700 text-yellow-200 md:text-2xl text-xl"}">sviluppo Front-End</span>.
 				</p>
-				<p class="${"mx-5 pb-5 md:text-xl text-md text-yellow-100"}">Puoi navigare sul sito e vedere tutti i miei <a href="${"/progetti"}" target="${"_blank"}"><span class="${"font-semibold text-yellow-200 md:text-2xl text-xl"}">progetti</span></a>, il mio curriculum e i miei contatti!
+				<p class="${"mx-5 pb-5 md:text-xl text-md dark:text-gray-600 text-yellow-100"}">Puoi navigare sul sito e vedere tutti i miei <a href="${"/progetti"}" target="${"_blank"}"><span class="${"font-semibold dark:text-gray-700 text-yellow-200 md:text-2xl text-xl"}">progetti</span></a>, il mio curriculum e i miei contatti!
 				</p></div>
 
-			<div class="${"m-5 grid grid-cols-4 h-auto space-x-5 place-items-center"}">${each(socials, (social) => `<a${add_attribute("href", social.link, 0)} target="${"_blank"}"><img class="${"h-10 mb-5 w-10 cursor-pointer opacity-75 hover:opacity-100 hover:scale-125 transition-all duration-150 "}" src="${"icons\\" + escape2(social.name) + ".svg"}" alt="${""}">
+			<div class="${"m-5 grid grid-cols-5 h-auto space-x-5 place-items-center"}">${each(socials, (social) => `<a${add_attribute("href", social.link, 0)} target="${"_blank"}"><img class="${"h-10 p-2 dark:bg-yellow-200 bg-gray-400 rounded-lg mb-5 w-10 cursor-pointer opacity-75 hover:opacity-100 hover:scale-125 transition-all duration-150 "}" src="${"icons\\" + escape2(social.name) + ".svg"}" alt="${""}">
 					</a>`)}</div></div></div>
 	${validate_component(Footer, "Footer").$$render($$result, {}, {}, {})}`
   })}`;
@@ -2659,23 +2684,25 @@ var index = /* @__PURE__ */ Object.freeze({
   "default": Routes
 });
 var Contattami = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `<title>Contattami</title>
+  return `<body class="${"dark:bg-gray-700"}"></body>
+
+<title>Contattami</title>
 ${validate_component(TransitionComponent, "TransitionComponent").$$render($$result, {}, {}, {
-    default: () => `<div class="${"container bg-yellow-100 items-center justify-center h-screen flex flex-col gap-4 rounded-lg m-auto"}"><div class="${"boxCentrale m-5 bg-gray-700 max-w-lg lg:max-w-2xl xl:max-w-full xl:flex flex-row rounded-xl"}"><div class="${"left h-auto m-auto flex w-auto md:flex-shrink-0"}"><img class="${"  sm:max-w-lg  lg:max-w-2xl xl:max-w-3xl rounded-t-lg xl:rounded-xl xl:rounded-r-none shadow-lg"}" src="${"images\\contact.png"}" alt="${""}"></div>
-			<div class="${"right h-auto m-3 text-justify flex flex-col justify-evenly"}"><h2 class="${" text-2xl md:text-4xl xl:text-6xl text-yellow-300 font-semibold text-left "}">Contattami
+    default: () => `<div class="${"container dark:bg-gray-700 bg-yellow-100 items-center justify-center h-screen flex flex-col gap-4 rounded-lg m-auto"}"><div class="${"boxCentrale m-5 bg-gray-700 dark:bg-yellow-200 max-w-lg lg:max-w-2xl xl:max-w-full xl:flex flex-row rounded-xl hover:shadow-lg duration-100 ease-linear"}"><div class="${"left h-auto m-auto flex w-auto md:flex-shrink-0"}"><img class="${"  sm:max-w-lg  lg:max-w-2xl xl:max-w-3xl rounded-t-lg xl:rounded-xl xl:rounded-r-none shadow-lg"}" src="${"images\\contact.png"}" alt="${""}"></div>
+			<div class="${"right h-auto m-3 text-justify flex flex-col justify-evenly"}"><h2 class="${" text-2xl md:text-4xl xl:text-6xl text-yellow-300 dark:text-gray-800 font-semibold text-left "}">Contattami
 				</h2>
-				<h2 class="${" text-md md:text-lg xl:text-2xl text-yellow-200 font-medium text-left "}">Per qualsiasi informazione riguardo:
+				<h2 class="${" text-md md:text-lg xl:text-2xl text-yellow-200 dark:text-gray-800 font-medium text-left "}">Per qualsiasi informazione riguardo:
 				</h2>
-				<ul><li class="${"text-md md:text-lg text-yellow-200"}">\u{1F4CC} Progetti</li>
-					<li class="${"text-md md:text-lg text-yellow-200"}">\u{1F4CC} Formazione</li>
-					<li class="${"text-md md:text-lg text-yellow-200"}">\u{1F4CC} Lavoro</li></ul>
-				<p class="${"text-sm sm:text-base md:text-lg text-yellow-100"}">Se sei interessato in un progetto per un <span class="${"font-semibold text-yellow-200 underline "}">sito Web
+				<ul><li class="${"text-md md:text-lg text-yellow-200 dark:text-gray-700"}">\u{1F4CC} Progetti</li>
+					<li class="${"text-md md:text-lg text-yellow-200 dark:text-gray-700"}">\u{1F4CC} Formazione</li>
+					<li class="${"text-md md:text-lg text-yellow-200 dark:text-gray-700"}">\u{1F4CC} Lavoro</li></ul>
+				<p class="${"text-sm sm:text-base md:text-lg text-yellow-100 dark:text-gray-600"}">Se sei interessato in un progetto per un <span class="${"font-semibold text-yellow-200 dark:text-gray-700 underline "}">sito Web
 					</span>
 					interamente personalizzabile a tuo piacimento e hai bisogno di qualcuno che gestisca le pagine
 					che mostrano la tua attivit\xE0 o azienda, sentiti libero di
-					<span class="${"font-semibold text-yellow-200 underline "}">contattarmi</span>
+					<span class="${"font-semibold text-yellow-200 dark:text-gray-700 underline "}">contattarmi</span>
 					in qualsiasi momento tramite il
-					<span class="${"font-semibold text-yellow-200 underline "}">bottone</span> sottostante!
+					<span class="${"font-semibold text-yellow-200 dark:text-gray-700 underline "}">bottone</span> sottostante!
 				</p></div></div>
 		<a class="${"text-xl font-semibold hover:scale-110 items-center p-3 flex w-min rounded-md bg-yellow-400 hover:bg-yellow-300 text-gray-700 shadow-lg duration-100 ease-in "}" href="${"mailto:danieleavoliodev@gmail.com"}">Contattami</a></div>
 	${validate_component(Footer, "Footer").$$render($$result, {}, {}, {})}`
@@ -2691,7 +2718,7 @@ var LanguageBox = create_ssr_component(($$result, $$props, $$bindings, slots) =>
   if ($$props.titolo === void 0 && $$bindings.titolo && titolo !== void 0)
     $$bindings.titolo(titolo);
   return `
-<div class="${"	main m-auto grid gap-1 \r\n		  bg-gray-700 rounded-xl \r\n            p-2 \r\n			hover:scale-105 transition-all \r\n            duration-100 \r\n			w-24  lg:w-48\r\n			hover:w-48 xl:hover:w-64\r\n			hover:shadow-lg \r\n			mb-5"}"><img class="${"w-30 h-30 flex m-auto p-1 rounded-xl "}" src="${"icons\\languages\\" + escape2(titolo.toLowerCase()) + ".png"}" alt="${""}">
+<div class="${"	main m-auto grid gap-1 \r\n		  bg-gray-700 dark:bg-yellow-200 rounded-xl \r\n            p-2 \r\n			hover:scale-105 transition-all \r\n            duration-100 \r\n			w-24  lg:w-48\r\n			hover:w-48 xl:hover:w-64\r\n			hover:shadow-lg \r\n			mb-5\r\n			z-0\r\n			relative"}"><img class="${"w-30 h-30 flex m-auto p-1 rounded-xl "}" style="${"scroll-snap-align:center;"}" src="${"icons\\languages\\" + escape2(titolo.toLowerCase()) + ".png"}" alt="${""}">
 
 	${``}</div>`;
 });
@@ -2711,10 +2738,13 @@ var Strumenti = create_ssr_component(($$result, $$props, $$bindings, slots) => {
     { name: "VSCode" },
     { name: "Tailwind CSS" }
   ];
-  return `${validate_component(TransitionComponent, "TransitionComponent").$$render($$result, {}, {}, {
+  return `<body class="${"dark:bg-gray-700"}"></body>
+
+${validate_component(TransitionComponent, "TransitionComponent").$$render($$result, {}, {}, {
     default: () => `<title>Strumenti e Linguaggi</title>
-	<div class="${"container bg-yellow-100 w-auto h-auto rounded-lg m-auto mt-20"}"><div class="${"boxCentrale"}"><h2 class="${"text-5xl text-gray-700 font-black text-center m-5"}">Linguaggi e Strumenti</h2>
-			<div class="${"boxLinguaggi grid grid-cols-1 md:grid-cols-2 gap-6 m-auto"}">${each(strAndLinguaggi, (linguaggio) => `${validate_component(LanguageBox, "LanguageBox").$$render($$result, { titolo: linguaggio.name }, {}, {})}`)}</div></div></div>
+	<div class="${"container bg-yellow-100 dark:bg-gray-700 w-auto h-auto rounded-lg m-auto mt-20"}"><div class="${"boxCentrale"}"><h2 class="${"text-5xl dark:text-yellow-200 text-gray-700 font-black text-center m-5"}">Linguaggi e Strumenti
+			</h2>
+			<div class="${"boxLinguaggi grid grid-cols-1 md:grid-cols-2 gap-6 m-auto"}" style="${"scroll-behavior: smooth;"}">${each(strAndLinguaggi, (linguaggio) => `${validate_component(LanguageBox, "LanguageBox").$$render($$result, { titolo: linguaggio.name }, {}, {})}`)}</div></div></div>
 	${validate_component(Footer, "Footer").$$render($$result, {}, {}, {})}`
   })}`;
 });
@@ -2775,63 +2805,63 @@ var progetti$1 = readable([
     nome: "Donkey Kong AI",
     tipo: "Gioco + Intelligenza Artificiale",
     descrizione: "Gioco sviluppato per l`esame di intelligenza artificiale utilizzando DLV e EmbAsp per gestire la logica del gioco e di tutti gli ostacoli che erano presenti all`interno del progetto",
-    immagine: "donkeykong.jpg",
+    immagine: "donkeykong",
     repo: "https://github.com/lovaion/DonkeyKongAI"
   },
   {
     nome: "Game Syllabus",
     tipo: "Full-stack Sito Web per videogiochi",
     descrizione: "Sito Web realizzato per il progetto di Sistemi Informativi per il Web e Ingegneria del Software, utilizzando Java come Backend con Spring Boot e PostgreSQL come Database, mentre il frontend \xE8 tutto HMTL,CSS e JS puri.",
-    immagine: "gsillabus.png",
+    immagine: "gsillabus",
     repo: "https://github.com/lovaion/Game-Syllabus"
   },
   {
     nome: "Personal Portfolio",
     tipo: "Sito realizzato con Svelte",
     descrizione: "Sito Web personale (quello che stai visualizzando ora) realizzato utilizzando come Framework Svelte e TailWind CSS.",
-    immagine: "personalPort.png",
+    immagine: "personalPort",
     repo: "https://github.com/lovaion/SveltePortfolio"
   },
   {
     nome: "Password Generator",
     tipo: "Generatore minimale di Password",
     descrizione: "Generatore di password realizzato con un design molto MINIMAL. Il tutto \xE8 stato programmato utilizzando solamente HTML,CSS e JS.",
-    immagine: "pswgen.png",
+    immagine: "pswgen",
     repo: "https://github.com/lovaion/MinimalPasswordGenerator"
   },
   {
     nome: "I Miss My Bus",
     tipo: "Semplice applicazione Web",
     descrizione: "Semplice progetto personale realizzato prendendo spunto da un progetto simile. Il sito mostra una playlist e dei suoni che ricordano i viaggi che si fanno in bus, regolabili e mutabili.",
-    immagine: "imissmybus.png",
+    immagine: "imissmybus",
     repo: "https://github.com/lovaion/IMissMyBus"
   },
   {
     nome: "Anime Hook",
     tipo: "Catalogo di Anime usando API Pubbliche",
     descrizione: "Applicazione Web che sfrutta delle API pubbliche per acquisire informazioni su Anime, realizzato usando Javascript.",
-    immagine: "animehook.png",
+    immagine: "animehook",
     repo: "https://github.com/lovaion/AnimeHook"
   },
   {
     nome: "Hero Road",
     tipo: "Gioco 2D in Java",
     descrizione: "Gioco 2D Arcade realizzato interamente con Java per il progetto di Interfacce grafiche e Programmazione ad Eventi",
-    immagine: "heroroad.png",
+    immagine: "heroroad",
     repo: "https://github.com/lovaion/Hero-Road-Java"
   },
   {
     nome: "Game Of Life GUI",
     tipo: "Applicazione con GUI per GOF",
     descrizione: "Progetto personale per la visualizzazione del gioco della vita con grafica personalizzabile, scalabile e movibile.",
-    immagine: "gofgui.png",
+    immagine: "gofgui",
     repo: "https://github.com/lovaion/GameOfLife-GUI "
   },
   {
     nome: "Lab Network Configuration",
     tipo: "Configurazione di rete di un laboratorio",
     descrizione: "Progetto per Sistemi Operativi e Reti: Sfrutta GNS3 per la configurazione di un laboratorio partendo dal calcolo degli indirizzi Ip per arrivare alla configurazione del NAT",
-    immagine: "netlab.jpg",
+    immagine: "netlab",
     repo: "https://github.com/AlexFazio64/Sor-project-29"
   }
 ]);
@@ -2853,10 +2883,10 @@ var U5Bnameu5D = create_ssr_component(($$result, $$props, $$bindings, slots) => 
   $$unsubscribe_progetti();
   return `<title>${escape2(name)}</title>
 ${validate_component(TransitionComponent, "TransitionComponent").$$render($$result, {}, {}, {
-    default: () => `<h2 class="${"text-center text-5xl m-5 font-black text-gray-700 "}">${escape2(name)}</h2>
-	<div class="${"container w-auto h-screen m-auto flex"}"><div class="${"card w-3/4 md:w-3/4 xl:w-max xl:h-max bg-gray-700 grid xl:flex m-auto gap- rounded-xl"}"><img class="${"flex-shrink-0 rounded-t-xl  xl:w-1/2 xl:h-1/2 xl:rounded-xl xl:rounded-r-none"}" src="${"..\\images\\projects\\" + escape2(immagine)}" alt="${""}">
-			<div class="${"right flex flex-col"}"><div class="${"testo"}"><h2 class="${"text-yellow-300 font-semibold text-lg md:text-2xl xl:text-3xl p-5"}">${escape2(tipo)}</h2>
-					<p class="${"text-yellow-200  text-sm md:text-base italic p-5"}">${escape2(descrizione)}</p></div>
+    default: () => `<h2 class="${"text-center text-5xl m-5 font-black dark:text-yellow-200 text-gray-700 "}">${escape2(name)}</h2>
+	<div class="${"container w-auto h-screen m-auto flex"}"><div class="${"card w-3/4 md:w-3/4 xl:w-max xl:h-max dark:bg-yellow-200 bg-gray-700 grid xl:flex m-auto gap- rounded-3xl hover:shadow-lg hover:scale-105 duration-100 ease-linear"}"><img class="${"flex-shrink-0 rounded-t-xl  xl:w-1/2 xl:h-1/2 xl:rounded-xl xl:rounded-r-none"}" src="${"..\\images\\projects\\" + escape2(immagine) + ".jpg"}" alt="${""}">
+			<div class="${"right flex flex-col"}"><div class="${"testo"}"><h2 class="${"text-yellow-300 dark:text-gray-700 font-semibold text-lg md:text-2xl xl:text-3xl p-5"}">${escape2(tipo)}</h2>
+					<p class="${"text-yellow-200  dark:text-gray-700 text-sm md:text-base italic p-5"}">${escape2(descrizione)}</p></div>
 				<a class="${"p-5 m-2 m-auto mb-5 md:m-5 bg-green-500 hover:bg-green-400 duration-100 ease-in w-min whitespace-nowrap rounded-lg flex flex-row align-middle items-center text-white"}" target="${"_blank"}"${add_attribute("href", repo, 0)}><svg xmlns="${"http://www.w3.org/2000/svg"}" class="${"xl:h-10 xl:w-10 h-6 w-6 text-center text-white"}" viewBox="${"0 0 20 20"}" fill="${"currentColor"}"><path fillrule="${"evenodd"}" d="${"M12.586 4.586a2 2 0 112.828 2.828l-3 3a2 2 0 01-2.828 0 1 1 0 00-1.414 1.414 4 4 0 005.656 0l3-3a4 4 0 00-5.656-5.656l-1.5 1.5a1 1 0 101.414 1.414l1.5-1.5zm-5 5a2 2 0 012.828 0 1 1 0 101.414-1.414 4 4 0 00-5.656 0l-3 3a4 4 0 105.656 5.656l1.5-1.5a1 1 0 10-1.414-1.414l-1.5 1.5a2 2 0 11-2.828-2.828l3-3z"}" cliprule="${"evenodd"}"></path></svg>
 					Source Code
 				</a></div></div></div>
@@ -2880,20 +2910,27 @@ var ProjectCard = create_ssr_component(($$result, $$props, $$bindings, slots) =>
   if ($$props.immagine === void 0 && $$bindings.immagine && immagine !== void 0)
     $$bindings.immagine(immagine);
   return `
-<div class="${"max-w-xs sm:max-w-md md:max-w-xl m-5 h-auto flex flex-col shadow-lg rounded-xl bg-gray-700"}"><div class="${"topPart md:flex-shrink-0"}"><img class="${" max-w-xs sm:max-w-md md:max-w-lg rounded-xl rounded-b-none"}" src="${"images\\projects\\" + escape2(immagine)}" alt="${""}"></div>
-	<div class="${"bottomPart w-full h-full grid grid-cols-2"}"><div class="${"p-5 testi flex flex-col gap-5"}"><h2 class="${"text-left text-xl md:text-2xl font-semibold text-yellow-300"}">${escape2(nome)}</h2>
-			<p class="${"text-sm md:text-md text-yellow-200"}">Tipo: <span class="${"italic"}">${escape2(tipo)}</span></p></div>
-		<a href="${"/progetti/" + escape2(nome)}" class="${"bg-yellow-200 text-gray-700 hover:scale-110 hover:bg-yellow-300 cursor-pointer flex m-auto  duration-100 transition-all  ease-linear p-3  rounded-md font-semibold"}">More Info
+<div class="${"max-w-xs sm:max-w-md md:max-w-xl m-14 h-auto flex flex-col  rounded-xl bg-gray-700 dark:bg-yellow-200 hover:shadow-lg ease-linear duration-100 sm:hover:scale-105"}" style="${"scroll-snap-align:center;"}"><div class="${"topPart md:flex-shrink-0"}"><img class="${" max-w-xs sm:max-w-md md:max-w-lg rounded-xl rounded-b-none"}" src="${"images\\projects\\" + escape2(immagine) + ".jpg"}" alt="${""}"></div>
+	<div class="${"bottomPart w-full h-full grid grid-cols-2 items-center justify-items-center"}"><div class="${"p-5 testi flex flex-col gap-5"}"><h2 class="${"text-left text-xl md:text-2xl font-semibold text-yellow-300 dark:text-gray-800"}">${escape2(nome)}</h2>
+			<p class="${"text-sm md:text-md text-yellow-200 dark:text-gray-700"}">Tipo: <span class="${"italic"}">${escape2(tipo)}</span></p></div>
+		<a href="${"/progetti/" + escape2(nome)}" class="${"flex w-min whitespace-nowrap h-1/3 items-center bg-yellow-200 dark:bg-gray-700 text-gray-700 dark:text-yellow-200  hover:scale-105 hover:bg-yellow-300 dark:hover:bg-gray-800 cursor-pointer first-letter:duration-100 transition-all  ease-linear p-3  rounded-md font-semibold"}">More Info
 		</a></div></div>`;
 });
 var Progetti = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   let $progetti, $$unsubscribe_progetti;
   $$unsubscribe_progetti = subscribe(progetti$1, (value) => $progetti = value);
   $$unsubscribe_progetti();
-  return `${validate_component(TransitionComponent, "TransitionComponent").$$render($$result, {}, {}, {
+  return `<head><meta name="${"viewport"}" content="${"width=device-width, initial-scale=1.0"}"></head>
+<body class="${"dark:bg-gray-700 "}"></body>
+
+${validate_component(TransitionComponent, "TransitionComponent").$$render($$result, {}, {}, {
     default: () => `<title>Progetti</title>
-	<div class="${"container bg-yellow-100 h-auto rounded-lg m-auto"}"><h2 class="${"text-7xl text-gray-700 font-black text-center m-5"}">Progetti</h2>
-		<div class="${"boxCentrale mt-5 h-auto md:h-screen flex flex-row"}"><div style="${"overflow: auto;"}" class="${"boxProgetti grid sm:flex sm:flex-row overflow-auto m-auto gap-5"}">${each($progetti, (progetto) => `${validate_component(ProjectCard, "ProjectCard").$$render($$result, Object.assign(progetto), {}, {})}`)}</div></div></div>
+	<div class="${"container dark:bg-gray-700 bg-yellow-100 h-auto rounded-lg m-auto"}"><h2 class="${"text-7xl dark:text-yellow-200 text-gray-700 font-black text-center m-5"}">Progetti</h2>
+		<div class="${"boxCentrale mt-5 h-screen flex flex-row "}"><div style="${"scroll-snap-type: x  mandatory; overflow-x: scroll; scroll-behavior: smooth;"}" class="${"boxProgetti flex flex-row overflow-auto m-auto h-auto overflow-x-hidden "}">${each($progetti, (progetto) => `${validate_component(ProjectCard, "ProjectCard").$$render($$result, {
+      nome: progetto.nome,
+      tipo: progetto.tipo,
+      immagine: progetto.immagine
+    }, {}, {})}`)}</div></div></div>
 	${validate_component(Footer, "Footer").$$render($$result, {}, {}, {})}`
   })}`;
 });

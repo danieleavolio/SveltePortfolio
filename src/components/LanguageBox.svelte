@@ -18,7 +18,9 @@
 			w-24  lg:w-48
 			hover:w-48 xl:hover:w-64
 			hover:shadow-lg 
-			mb-5"
+			mb-5
+			z-0
+			relative"
 	on:mouseover={handleHover}
 	on:mouseout={handleHover}
 >

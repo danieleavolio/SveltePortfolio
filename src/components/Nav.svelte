@@ -16,7 +16,7 @@
 	}
 </script>
 
-<nav class="bg-gray-700 mx-auto p-2 h-12 sticky top-0 dark:bg-yellow-200 ">
+<nav class="bg-gray-700 mx-auto p-2 h-12 sticky top-0 dark:bg-yellow-200 z-10 relative">
 	<div class="name">
 		{#if show}
 			<!-- svelte-ignore a11y-mouse-events-have-key-events -->
