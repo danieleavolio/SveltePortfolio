@@ -6,7 +6,39 @@
 
 <body class="dark:bg-gray-700" />
 
-<title>Contattami</title>
+
+<head>
+<!-- HTML Meta Tags -->
+	<title>Daniele Avolio | Contattami</title>
+	<meta
+		name="description"
+		content="Hai bisogno di qualche servizio o hai qualche domanda farmi? Puoi contattarmi direttamente da.."
+	/>
+
+	<!-- Facebook Meta Tags -->
+	<meta property="og:url" content="https://www.danieleavolio.it/"/>
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Daniele Avolio Javascript Developer" />
+	<meta
+		property="og:description"
+		content="Hai bisogno di qualche servizio o hai qualche domanda farmi? Puoi contattarmi direttamente da.."
+	/>
+	<meta property="og:image" content="https://i.imgur.com/jtjXJOT.png" />
+
+	<!-- Twitter Meta Tags -->
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta property="twitter:domain" content="danieleavolio.it" />
+	<meta property="twitter:url" content="https://www.danieleavolio.it/" />
+	<meta name="twitter:title" content="Daniele Avolio Javascript Developer" />
+	<meta
+		name="twitter:description"
+		content="Hai bisogno di qualche servizio o hai qualche domanda farmi? Puoi contattarmi direttamente da.."
+	/>
+	<meta name="twitter:image" content="https://i.imgur.com/jtjXJOT.png" />
+
+	<!-- Meta Tags Generated via https://www.opengraph.xyz -->
+</head>
+
 <TransitionComponent>
 	<div
 		class="container dark:bg-gray-700 bg-yellow-100 items-center justify-center h-screen flex flex-col gap-4 rounded-lg m-auto"

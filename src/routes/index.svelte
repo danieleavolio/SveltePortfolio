@@ -9,7 +9,7 @@
 		},
 		{
 			name: 'github',
-			link: 'https://github.com/lovaion'
+			link: 'https://github.com/danieleavolio'
 		},
 		{
 			name: 'instagram',
@@ -19,10 +19,41 @@
 		{ name: 'linkedin', link: 'https://www.linkedin.com/in/daniele-avolio-465aba145/' }
 	];
 </script>
-
 <body class="dark:bg-gray-700" />
 
-<title>Daniele Avolio</title>
+
+<head>
+<!-- HTML Meta Tags -->
+	<title>Daniele Avolio | Javascript Front-End Developer</title>
+	<meta
+		name="description"
+		content="Sono Daniele Avolio, sviluppatore appassionato di Javascript e Front-End. Mi appassiona il mondo della tecnologia e della Programmazione  "
+	/>
+
+	<!-- Facebook Meta Tags -->
+	<meta property="og:url" content="https://www.danieleavolio.it/"/>
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Daniele Avolio Javascript Developer" />
+	<meta
+		property="og:description"
+		content="Sono Daniele Avolio, sviluppatore appassionato di Javascript e Front-End. Mi appassiona il mondo della tecnologia e della Programmazione Web."
+	/>
+	<meta property="og:image" content="https://i.imgur.com/jtjXJOT.png" />
+
+	<!-- Twitter Meta Tags -->
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta property="twitter:domain" content="danieleavolio.it" />
+	<meta property="twitter:url" content="https://www.danieleavolio.it/" />
+	<meta name="twitter:title" content="Daniele Avolio Javascript Developer" />
+	<meta
+		name="twitter:description"
+		content="Sono Daniele Avolio, sviluppatore appassionato di Javascript e Front-End. Mi appassiona il mondo della tecnologia e della Programmazione Web."
+	/>
+	<meta name="twitter:image" content="https://i.imgur.com/jtjXJOT.png" />
+
+	<!-- Meta Tags Generated via https://www.opengraph.xyz -->
+</head>
+
 <TransitionComponent>
 	<div
 		class="container dark:bg-gray-700 bg-yellow-100 w-11/12 h-auto sm:h-screen rounded-lg sm:grid sm:grid-cols-2 grid-rows-1 m-auto "
@@ -66,18 +97,17 @@
 						class="font-semibold dark:text-gray-700 text-yellow-200 md:text-2xl text-xl"
 						>Informatica</span
 					>
-					dell'Università della calabria e sono appassionato di tecnologia e programmazione. Il mio punto
-					forte è lo
+					dell'Università della Calabria e adoro di tecnologia e programmazione. Sono appassionato di
 					<span class="font-semibold dark:text-gray-700 text-yellow-200 md:text-2xl text-xl"
-						>sviluppo Front-End</span
-					>.
+						>sviluppo Front-End e Javascript</span
+					>!
 				</p>
 				<p class="mx-5 pb-5 md:text-xl text-md dark:text-gray-600 text-yellow-100">
-					Puoi navigare sul sito e vedere tutti i miei <a href="/progetti" target="_blank"
+					Nel sito e trovi tutti i miei <a href="/progetti" target="_blank"
 						><span class="font-semibold dark:text-gray-700 text-yellow-200 md:text-2xl text-xl"
 							>progetti</span
 						></a
-					>, il mio curriculum e i miei contatti!
+					>, il mio CV e i miei contatti!
 				</p>
 			</div>
 

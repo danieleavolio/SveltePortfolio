@@ -24,6 +24,41 @@
 
 <body class="dark:bg-gray-700" />
 
+
+<head>
+<!-- HTML Meta Tags -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Daniele Avolio | Strumenti</title>
+	<meta
+		name="description"
+		content="Sono Daniele, sviluppatore Javscrit. Cosa utilizzo e quali linguaggi conosco? Trovi tutto in questa.."
+	/>
+
+	<!-- Facebook Meta Tags -->
+	<meta property="og:url" content="https://www.danieleavolio.it/"/>
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Daniele Avolio Javascript Developer" />
+	<meta
+		property="og:description"
+		content="Sono Daniele, sviluppatore Javscrit. Cosa utilizzo e quali linguaggi conosco? Trovi tutto in questa.."
+	/>
+	<meta property="og:image" content="https://i.imgur.com/jtjXJOT.png" />
+
+	<!-- Twitter Meta Tags -->
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta property="twitter:domain" content="danieleavolio.it" />
+	<meta property="twitter:url" content="https://www.danieleavolio.it/" />
+	<meta name="twitter:title" content="Daniele Avolio Javascript Developer" />
+	<meta
+		name="twitter:description"
+		content="Sono Daniele, sviluppatore Javscrit. Cosa utilizzo e quali linguaggi conosco? Trovi tutto in questa.."
+	/>
+	<meta name="twitter:image" content="https://i.imgur.com/jtjXJOT.png" />
+
+	<!-- Meta Tags Generated via https://www.opengraph.xyz -->
+</head>
+	
+
 <TransitionComponent>
 	<title>Strumenti e Linguaggi</title>
 	<div class="container bg-yellow-100 dark:bg-gray-700 w-auto h-auto rounded-lg m-auto mt-20">
