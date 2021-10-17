@@ -22,10 +22,7 @@
 			font-family: Poppins;
 			scroll-behavior: smooth;
 		}
-		h1 {
-			font-family: 'Libre Baskerville', serif;
-		}
-
+		
 		/* width */
 		::-webkit-scrollbar {
 			width: 20px;
