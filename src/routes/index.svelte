@@ -85,7 +85,7 @@
 			</a>
 		</div>
 		<div class="bio m-auto hover:scale-105 duration-100">
-			<div class="testo shadow-xl rounded-lg dark:bg-yellow-200  bg-gray-700">
+			<div class="shadow-xl rounded-lg dark:bg-yellow-200  bg-gray-700">
 				<h1
 					class="flex justify-left p-5 md:text-4xl text-3xl font-semibold dark:text-gray-700 text-yellow-200"
 				>
@@ -97,13 +97,13 @@
 						class="font-semibold dark:text-gray-700 text-yellow-200 md:text-2xl text-xl"
 						>Informatica</span
 					>
-					dell'Università della Calabria e adoro di tecnologia e programmazione. Sono appassionato di
+					dell'Università della Calabria e adoro la tecnologia e la programmazione. Sono appassionato di
 					<span class="font-semibold dark:text-gray-700 text-yellow-200 md:text-2xl text-xl"
 						>sviluppo Front-End e Javascript</span
 					>!
 				</p>
 				<p class="mx-5 pb-5 md:text-xl text-md dark:text-gray-600 text-yellow-100">
-					Nel sito e trovi tutti i miei <a href="/progetti" target="_blank"
+					Nel sito  trovi tutti i miei <a href="/progetti" target="_blank"
 						><span class="font-semibold dark:text-gray-700 text-yellow-200 md:text-2xl text-xl"
 							>progetti</span
 						></a
