@@ -24,12 +24,10 @@
 
 <head>
 <!-- HTML Meta Tags -->
+	<meta charset="utf-8">
+	<meta name="description" content="Sono Daniele Avolio, sviluppatore appassionato di Javascript e Front-End Development. Mi appassiona il mondo della tecnologia e della Programmazione Web; Punto a diventare uno sviluppatore Full-Stack! " />
 	<title>Daniele Avolio | Javascript Front-End Developer</title>
-	<meta
-		name="description"
-		content="Sono Daniele Avolio, sviluppatore appassionato di Javascript e Front-End. Mi appassiona il mondo della tecnologia e della Programmazione  "
-	/>
-
+	
 	<!-- Facebook Meta Tags -->
 	<meta property="og:url" content="https://www.danieleavolio.it/"/>
 	<meta property="og:type" content="website" />
@@ -38,7 +36,7 @@
 		property="og:description"
 		content="Sono Daniele Avolio, sviluppatore appassionato di Javascript e Front-End. Mi appassiona il mondo della tecnologia e della Programmazione Web."
 	/>
-	<meta property="og:image" content="https://i.imgur.com/jtjXJOT.png" />
+	<meta property="og:image" content="https://i.imgur.com/GWYh8J2.png" />
 
 	<!-- Twitter Meta Tags -->
 	<meta name="twitter:card" content="summary_large_image" />
@@ -49,7 +47,7 @@
 		name="twitter:description"
 		content="Sono Daniele Avolio, sviluppatore appassionato di Javascript e Front-End. Mi appassiona il mondo della tecnologia e della Programmazione Web."
 	/>
-	<meta name="twitter:image" content="https://i.imgur.com/jtjXJOT.png" />
+	<meta name="twitter:image" content="https://i.imgur.com/GWYh8J2.png" />
 
 	<!-- Meta Tags Generated via https://www.opengraph.xyz -->
 </head>

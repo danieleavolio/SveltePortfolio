@@ -31,7 +31,7 @@
 	<title>Daniele Avolio | Strumenti</title>
 	<meta
 		name="description"
-		content="Sono Daniele, sviluppatore Javscrit. Cosa utilizzo e quali linguaggi conosco? Trovi tutto in questa.."
+		content="Sono Daniele, sviluppatore Javscript. Cosa utilizzo e quali linguaggi conosco? Trovi tutto in questa.."
 	/>
 
 	<!-- Facebook Meta Tags -->
@@ -40,7 +40,7 @@
 	<meta property="og:title" content="Daniele Avolio Javascript Developer" />
 	<meta
 		property="og:description"
-		content="Sono Daniele, sviluppatore Javscrit. Cosa utilizzo e quali linguaggi conosco? Trovi tutto in questa.."
+		content="Sono Daniele, sviluppatore Javscript. Cosa utilizzo e quali linguaggi conosco? Trovi tutto in questa.."
 	/>
 	<meta property="og:image" content="https://i.imgur.com/jtjXJOT.png" />
 
@@ -51,7 +51,7 @@
 	<meta name="twitter:title" content="Daniele Avolio Javascript Developer" />
 	<meta
 		name="twitter:description"
-		content="Sono Daniele, sviluppatore Javscrit. Cosa utilizzo e quali linguaggi conosco? Trovi tutto in questa.."
+		content="Sono Daniele, sviluppatore Javscript. Cosa utilizzo e quali linguaggi conosco? Trovi tutto in questa.."
 	/>
 	<meta name="twitter:image" content="https://i.imgur.com/jtjXJOT.png" />
 
