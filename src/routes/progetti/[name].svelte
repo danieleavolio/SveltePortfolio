@@ -24,10 +24,10 @@
 
 <title>{name}</title>
 <TransitionComponent>
-	<h2 class="text-center text-5xl m-5 font-black dark:text-yellow-200 text-gray-700 ">{name}</h2>
+	<h2 class="text-center text-5xl m-5 font-black dark:text-green-400 text-gray-800 ">{name}</h2>
 	<div class="container w-auto h-screen m-auto flex">
 		<div
-			class="card w-3/4 md:w-3/4 xl:w-max xl:h-max dark:bg-yellow-200 bg-gray-700 grid xl:flex m-auto gap- rounded-3xl hover:shadow-lg hover:scale-105 duration-100 ease-linear"
+			class="card w-3/4 md:w-3/4 xl:w-max xl:h-max dark:text-green-400 bg-gray-800 dark:bg-green-400 grid xl:flex m-auto gap- rounded-3xl hover:shadow-lg hover:scale-105 duration-100 ease-linear"
 		>
 			<img
 				class="flex-shrink-0 rounded-t-xl  xl:w-1/2 xl:h-1/2 xl:rounded-xl xl:rounded-r-none"
@@ -37,22 +37,22 @@
 			<div class="right flex flex-col">
 				<div class="testo">
 					<h2
-						class="text-yellow-300 dark:text-gray-700 font-semibold text-lg md:text-2xl xl:text-3xl p-5"
+						class="text-green-400 dark:text-gray-800 font-semibold text-lg md:text-2xl xl:text-3xl p-5"
 					>
 						{tipo}
 					</h2>
-					<p class="text-yellow-200  dark:text-gray-700 text-sm md:text-base italic p-5">
+					<p class="text-white text-sm md:text-base italic p-5">
 						{descrizione}
 					</p>
 				</div>
 				<a
-					class="p-5 m-2 m-auto mb-5 md:m-5 bg-green-500 hover:bg-green-400 duration-100 ease-in w-min whitespace-nowrap rounded-lg flex flex-row align-middle items-center text-white"
+					class="p-5 m-2 m-auto mb-5 md:m-5 bg-green-500 dark:bg-gray-800 hover:bg-white hover:text-gray-800 duration-100 ease-in w-min whitespace-nowrap rounded-lg flex flex-row align-middle items-center text-white"
 					target="_blank"
 					href={repo}
 				>
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
-						class="xl:h-10 xl:w-10 h-6 w-6 text-center text-white"
+						class="xl:h-10 xl:w-10 h-6 w-6 text-center text-gray-800 dark:text-green-400"
 						viewBox="0 0 20 20"
 						fill="currentColor"
 					>

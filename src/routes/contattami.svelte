@@ -4,7 +4,7 @@
 	import Footer from '../components/Footer.svelte';
 </script>
 
-<body class="dark:bg-gray-700" />
+<body class="dark:bg-gray-800" />
 
 
 <head>
@@ -41,10 +41,10 @@
 
 <TransitionComponent>
 	<div
-		class="container dark:bg-gray-700 bg-yellow-100 items-center justify-center h-screen flex flex-col gap-4 rounded-lg m-auto"
+		class="container dark:bg-gray-800 bg-green-400 items-center justify-center h-screen flex flex-col gap-4 rounded-lg m-auto"
 	>
 		<div
-			class="boxCentrale m-5 bg-gray-700 dark:bg-yellow-200 max-w-lg lg:max-w-2xl xl:max-w-full xl:flex flex-row rounded-xl hover:shadow-lg duration-100 ease-linear"
+			class="boxCentrale m-5 bg-gray-800 dark:bg-green-400 max-w-lg lg:max-w-2xl xl:max-w-full xl:flex flex-row rounded-xl hover:shadow-lg duration-100 ease-linear"
 		>
 			<div class="left h-auto m-auto flex w-auto md:flex-shrink-0">
 				<img
@@ -55,38 +55,38 @@
 			</div>
 			<div class="right h-auto m-3 text-justify flex flex-col justify-evenly">
 				<h2
-					class=" text-2xl md:text-4xl xl:text-6xl text-yellow-300 dark:text-gray-800 font-semibold text-left "
+					class=" text-2xl md:text-4xl xl:text-6xl text-green-400 dark:text-gray-800 font-semibold text-left "
 				>
 					Contattami
 				</h2>
 				<h2
-					class=" text-md md:text-lg xl:text-2xl text-yellow-200 dark:text-gray-800 font-medium text-left "
+					class=" text-md md:text-lg xl:text-2xl text-white  font-medium text-left "
 				>
 					Per qualsiasi informazione riguardo:
 				</h2>
 				<ul>
-					<li class="text-md md:text-lg text-yellow-200 dark:text-gray-700">📌 Progetti</li>
-					<li class="text-md md:text-lg text-yellow-200 dark:text-gray-700">📌 Formazione</li>
-					<li class="text-md md:text-lg text-yellow-200 dark:text-gray-700">📌 Lavoro</li>
+					<li class="text-md md:text-lg text-green-400 dark:text-gray-800">📌 Progetti</li>
+					<li class="text-md md:text-lg text-green-400 dark:text-gray-800">📌 Formazione</li>
+					<li class="text-md md:text-lg text-green-400 dark:text-gray-800">📌 Lavoro</li>
 				</ul>
-				<p class="text-sm sm:text-base md:text-lg text-yellow-100 dark:text-gray-600">
+				<p class="text-sm sm:text-base md:text-lg text-white">
 					Se sei interessato in un progetto per un <span
-						class="font-semibold text-yellow-200 dark:text-gray-700 underline "
+						class="font-semibold text-green-400 dark:text-gray-800 underline "
 					>
 						sito Web
 					</span>
 					interamente personalizzabile a tuo piacimento e hai bisogno di qualcuno che gestisca le pagine
 					che mostrano la tua attività o azienda, sentiti libero di
-					<span class="font-semibold text-yellow-200 dark:text-gray-700 underline "
+					<span class="font-semibold text-green-400 dark:text-gray-800 underline "
 						>contattarmi</span
 					>
 					in qualsiasi momento tramite il
-					<span class="font-semibold text-yellow-200 dark:text-gray-700 underline ">bottone</span> sottostante!
+					<span class="font-semibold text-green-400 dark:text-gray-800 underline ">bottone</span> sottostante!
 				</p>
 			</div>
 		</div>
 		<a
-			class="text-xl font-semibold hover:scale-110 items-center p-3 flex w-min rounded-md bg-yellow-400 hover:bg-yellow-300 text-gray-700 shadow-lg duration-100 ease-in "
+			class="text-xl font-semibold hover:scale-110 items-center p-3 flex w-min rounded-md bg-green-400 hover:bg-white text-gray-800 shadow-lg duration-100 ease-in "
 			href="mailto:danieleavoliodev@gmail.com">Contattami</a
 		>
 	</div>

@@ -22,7 +22,7 @@
 	];
 </script>
 
-<body class="dark:bg-gray-700" />
+<body class="dark:bg-gray-800" />
 
 
 <head>
@@ -61,9 +61,9 @@
 
 <TransitionComponent>
 	<title>Strumenti e Linguaggi</title>
-	<div class="container bg-yellow-100 dark:bg-gray-700 w-auto h-auto rounded-lg m-auto mt-20">
+	<div class="container bg-green-400 dark:bg-gray-800 w-auto h-auto rounded-lg m-auto mt-20">
 		<div class="boxCentrale">
-			<h2 class="text-5xl dark:text-yellow-200 text-gray-700 font-black text-center m-5">
+			<h2 class="text-5xl dark:text-green-400 text-gray-800 font-black text-center m-5">
 				Linguaggi e Strumenti
 			</h2>
 			<div

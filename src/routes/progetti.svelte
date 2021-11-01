@@ -54,15 +54,15 @@
 	<!-- Meta Tags Generated via https://www.opengraph.xyz -->
 </head>
 	
-<body class="dark:bg-gray-700 " />
+<body class="dark:bg-gray-800" style="overflow-x: hidden;" />
 
 <TransitionComponent>
 	<title>Progetti</title>
-	<div class="container dark:bg-gray-700 bg-yellow-100 h-auto rounded-lg m-auto">
-		<h2 class="text-7xl dark:text-yellow-200 text-gray-700 font-black text-center m-5">Progetti</h2>
+	<div class="container dark:bg-gray-800 bg-green-400 h-auto rounded-lg m-auto">
+		<h2 class="text-7xl dark:text-green-400 text-gray-700 font-black text-center m-5">Progetti</h2>
 		<div class="boxCentrale mt-5 h-screen flex flex-row ">
 			<div
-				style="scroll-snap-type: x  mandatory; overflow-x: scroll; scroll-behavior: smooth;"
+				style="overflow-x: scroll;"
 				class="boxProgetti flex flex-row overflow-auto m-auto h-auto overflow-x-hidden "
 			>
 				{#each $progetti as progetto}

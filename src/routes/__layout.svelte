@@ -18,7 +18,7 @@
 
 	<style>
 		body {
-			background-color: #fff3c7;
+			background-color: #34d399;
 			font-family: Poppins;
 			scroll-behavior: smooth;
 		}
@@ -30,13 +30,12 @@
 
 		/* Track */
 		::-webkit-scrollbar-track {
-			box-shadow: inset 0 0 5px grey;
 			border-radius: 10px;
 		}
 
 		/* Handle */
 		::-webkit-scrollbar-thumb {
-			background: #374151;
+			background: #1F2937;
 			border-radius: 8px;
 		}
 
@@ -48,13 +47,12 @@
 
 			/* Track */
 			::-webkit-scrollbar-track {
-				box-shadow: inset 0 0 5px grey;
 				border-radius: 10px;
 			}
 
 			/* Handle */
 			::-webkit-scrollbar-thumb {
-				background: #fde68a;
+				background: #34D399;
 				border-radius: 8px;
 			}
 		}

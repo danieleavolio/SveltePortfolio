@@ -19,17 +19,20 @@
 		{ name: 'linkedin', link: 'https://www.linkedin.com/in/daniele-avolio-465aba145/' }
 	];
 </script>
-<body class="dark:bg-gray-700" />
 
+<body class="dark:bg-gray-800" />
 
 <head>
-<!-- HTML Meta Tags -->
-	<meta charset="utf-8">
-	<meta name="description" content="Sono Daniele Avolio, sviluppatore appassionato di Javascript e Front-End Development. Mi appassiona il mondo della tecnologia e della Programmazione Web; Punto a diventare uno sviluppatore Full-Stack! " />
+	<!-- HTML Meta Tags -->
+	<meta charset="utf-8" />
+	<meta
+		name="description"
+		content="Sono Daniele Avolio, sviluppatore appassionato di Javascript e Front-End Development. Mi appassiona il mondo della tecnologia e della Programmazione Web; Punto a diventare uno sviluppatore Full-Stack! "
+	/>
 	<title>Daniele Avolio | Javascript Front-End Developer</title>
-	
+
 	<!-- Facebook Meta Tags -->
-	<meta property="og:url" content="https://www.danieleavolio.it/"/>
+	<meta property="og:url" content="https://www.danieleavolio.it/" />
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="Daniele Avolio Javascript Developer" />
 	<meta
@@ -54,55 +57,57 @@
 
 <TransitionComponent>
 	<div
-		class="container dark:bg-gray-700 bg-yellow-100 w-11/12 h-auto sm:h-screen rounded-lg sm:grid sm:grid-cols-2 grid-rows-1 m-auto "
+		class="container dark:bg-gray-800 bg-green-400 w-11/12 h-auto sm:h-screen rounded-lg sm:grid sm:grid-cols-2 grid-rows-1 m-auto "
 	>
 		<div class="info m-auto flex flex-col h-auto md:h-3/4 gap-5 ">
 			<div class="cnt-image m-auto hover:scale-110 duration-100 mt-5">
 				<img
-					class="border-4 dark:border-yellow-200 border-gray-600 rounded-full h-72 w-72 shadow-md"
+					class="border-4 dark:border-green-400 border-gray-800 rounded-full h-72 w-72 shadow-md"
 					src="images\avatar.jpg"
 					alt=""
 				/>
 			</div>
-			<div class="infos shadow-md rounded-md dark:bg-yellow-200 bg-gray-700 p-2">
+			<div class="infos shadow-2xl rounded-md dark:bg-gray-900 bg-green-500 p-2">
 				<h2
-					class="flex justify-center md:text-2xl text-xl font-semibold dark:text-gray-700 text-yellow-200"
+					class="flex justify-center md:text-2xl text-xl font-bold dark:text-green-400 text-gray-800"
 				>
 					Daniele Avolio
 				</h2>
-				<h3 class="flex justify-center md:text-xl text-md dark:text-gray-700 text-yellow-200">
+				<h3 class="flex justify-center md:text-xl text-md dark:text-white text-white">
 					Computer Science student
 				</h3>
 			</div>
 			<a
 				href="https://drive.google.com/file/d/1YYLo_PTYPDJEwrUOVGqychMAdH1QsNvq/view?usp=sharing"
 				target="_blank"
-				class=" hover:scale-125 hover:text-yellow-300 dark:text-gray-700 text-yellow-200 dark:hover:text-gray-600 mx-auto my-5 dark:bg-yellow-200  bg-gray-600 rounded p-2 h-min max-w-sm font-semibold dark:hover:bg-yellow-300  hover:bg-gray-700 transition-all duration-150 ease-linear center"
+				class=" hover:scale-125  hover:text-green-400 text-white dark:hover:text-gray-800 mx-auto my-5 dark:bg-gray-900  bg-green-500 rounded p-2 h-min max-w-sm font-semibold dark:hover:bg-green-400  hover:bg-gray-800 transition-all duration-150 ease-linear center shadow-lg"
 			>
 				Download CV
 			</a>
 		</div>
 		<div class="bio m-auto hover:scale-105 duration-100">
-			<div class="shadow-xl rounded-lg dark:bg-yellow-200  bg-gray-700">
+			<div class="shadow-2xl rounded-lg dark:bg-gray-900  bg-green-500">
 				<h1
-					class="flex justify-left p-5 md:text-4xl text-3xl font-semibold dark:text-gray-700 text-yellow-200"
+					class="flex justify-left p-5 md:text-4xl text-3xl font-semibold dark:text-green-400 text-gray-800"
 				>
 					Ciao! 👋
 				</h1>
-				<p class="mx-5 md:text-xl text-md dark:text-gray-600 text-yellow-100">Mi chiamo Daniele.</p>
-				<p class="mx-5 md:text-xl text-md dark:text-gray-600 text-yellow-100">
-					Sono uno studente di <span
-						class="font-semibold dark:text-gray-700 text-yellow-200 md:text-2xl text-xl"
-						>Informatica</span
-					>
-					dell'Università della Calabria e adoro la tecnologia e la programmazione. Sono appassionato di
-					<span class="font-semibold dark:text-gray-700 text-yellow-200 md:text-2xl text-xl"
-						>sviluppo Front-End e Javascript</span
-					>!
+				<p class="mx-5 md:text-xl text-md  text-white">
+					Mi chiamo <span class="font-semibold dark:text-green-400 text-gray-800 "> Daniele</span>.
 				</p>
-				<p class="mx-5 pb-5 md:text-xl text-md dark:text-gray-600 text-yellow-100">
-					Nel sito  trovi tutti i miei <a href="/progetti" target="_blank"
-						><span class="font-semibold dark:text-gray-700 text-yellow-200 md:text-2xl text-xl"
+				<p class="mx-5 md:text-xl text-md  text-white">
+					Sono uno studente di <span
+						class="font-semibold dark:text-green-400 text-gray-800 md:text-2xl text-xl"
+						>Informatica
+					</span>di Cosenza e frequento l'Università della Calabria; adoro la tecnologia e la
+					programmazione e sono appassionato di
+					<span class="font-semibold dark:text-green-400 text-gray-800 md:text-2xl text-xl"
+						>sviluppo Front-End e Javascript!</span
+					> Principalmente mi interessa il Web-Development e tutto ciò che ruota intorno ad esso!
+				</p>
+				<p class="mx-5 pb-5 md:text-xl text-md text-white ">
+					Nel sito trovi tutti i miei <a href="/progetti" target="_blank"
+						><span class="font-semibold dark:text-green-400 text-gray-900 md:text-2xl text-xl"
 							>progetti</span
 						></a
 					>, il mio CV e i miei contatti!
@@ -113,7 +118,7 @@
 				{#each socials as social}
 					<a href={social.link} target="_blank">
 						<img
-							class="h-10 p-2 dark:bg-yellow-200 bg-gray-400 rounded-lg mb-5 w-10 cursor-pointer opacity-75 hover:opacity-100 hover:scale-125 transition-all duration-150 "
+							class="h-10 p-2 dark:bg-gray-700 bg-green-500 rounded-lg mb-5 w-10 cursor-pointer opacity-75 hover:opacity-100 dark:hover:bg-green-400 hover:bg-white hover:scale-125 transition-all duration-150 "
 							src="icons\{social.name}.svg"
 							alt=""
 						/>
