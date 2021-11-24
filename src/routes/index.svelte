@@ -1,6 +1,5 @@
 <script>
 	//Mi serve per fare in modo che le pagine abbiano una transizione
-	import TransitionComponent from '../components/TransitionComponent.svelte';
 	import Footer from '../components/Footer.svelte';
 	let socials = [
 		{
@@ -55,7 +54,6 @@
 	<!-- Meta Tags Generated via https://www.opengraph.xyz -->
 </head>
 
-<TransitionComponent>
 	<div
 		class="container dark:bg-gray-800 bg-green-400 w-11/12 h-auto sm:h-screen rounded-lg sm:grid sm:grid-cols-2 grid-rows-1 m-auto "
 	>
@@ -128,4 +126,3 @@
 		</div>
 	</div>
 	<Footer />
-</TransitionComponent>

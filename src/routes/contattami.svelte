@@ -1,6 +1,4 @@
 <script>
-	import { fade } from 'svelte/transition';
-	import TransitionComponent from '../components/TransitionComponent.svelte';
 	import Footer from '../components/Footer.svelte';
 </script>
 
@@ -39,7 +37,6 @@
 	<!-- Meta Tags Generated via https://www.opengraph.xyz -->
 </head>
 
-<TransitionComponent>
 	<div
 		class="container dark:bg-gray-800 bg-green-400 items-center justify-center h-screen flex flex-col gap-4 rounded-lg m-auto"
 	>
@@ -91,4 +88,3 @@
 		>
 	</div>
 	<Footer />
-</TransitionComponent>

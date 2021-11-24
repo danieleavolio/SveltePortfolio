@@ -1,5 +1,4 @@
 <script>
-	import TransitionComponent from '../components/TransitionComponent.svelte';
 	import Footer from '../components/Footer.svelte';
 	import ProjectCard from '../components/ProjectCard.svelte';
 	import { progetti } from '../stores/progetti';
@@ -36,7 +35,7 @@
 	<meta property="og:title" content="Daniele Avolio Javascript Developer" />
 	<meta
 		property="og:description"
-		content="Sono Daniele, sviluppatore Javscrit. Qui trovi i progetti che ho realizzato da solo e con colleghi; Trovi i codici direttamente.."
+		content="Sono Daniele, sviluppatore Javscript. Qui trovi i progetti che ho realizzato da solo e con colleghi; Trovi i codici direttamente.."
 	/>
 	<meta property="og:image" content="https://i.imgur.com/jtjXJOT.png" />
 
@@ -56,7 +55,6 @@
 	
 <body class="dark:bg-gray-800" style="overflow-x: hidden;" />
 
-<TransitionComponent>
 	<title>Progetti</title>
 	<div class="container dark:bg-gray-800 bg-green-400 h-auto rounded-lg m-auto">
 		<h2 class="text-7xl dark:text-green-400 text-gray-700 font-black text-center m-5">Progetti</h2>
@@ -72,4 +70,3 @@
 		</div>
 	</div>
 	<Footer />
-</TransitionComponent>

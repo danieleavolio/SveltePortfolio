@@ -12,7 +12,6 @@
 <script>
 	export let name;
 	import { progetti } from '../../stores/progetti';
-	import TransitionComponent from '../../components/TransitionComponent.svelte';
 	import Footer from '../../components/Footer.svelte';
 
 	let index = $progetti.findIndex((elem) => elem.nome == name);
@@ -23,7 +22,6 @@
 </script>
 
 <title>{name}</title>
-<TransitionComponent>
 	<h2 class="text-center text-5xl m-5 font-black dark:text-green-400 text-gray-800 ">{name}</h2>
 	<div class="container w-auto h-screen m-auto flex">
 		<div
@@ -68,4 +66,3 @@
 		</div>
 	</div>
 	<Footer />
-</TransitionComponent>

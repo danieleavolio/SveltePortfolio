@@ -1,7 +1,5 @@
 <script>
-	import { slide } from 'svelte/transition';
 	import LanguageBox from '../components/LanguageBox.svelte';
-	import TransitionComponent from '../components/TransitionComponent.svelte';
 	import Footer from '../components/Footer.svelte';
 
 	//linguaggi per riempire le categorie
@@ -59,7 +57,6 @@
 </head>
 	
 
-<TransitionComponent>
 	<title>Strumenti e Linguaggi</title>
 	<div class="container bg-green-400 dark:bg-gray-800 w-auto h-auto rounded-lg m-auto mt-20">
 		<div class="boxCentrale">
@@ -78,4 +75,3 @@
 		</div>
 	</div>
 	<Footer />
-</TransitionComponent>
