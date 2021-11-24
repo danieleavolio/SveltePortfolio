@@ -64,7 +64,6 @@
 				Linguaggi e Strumenti
 			</h2>
 			<div
-				transition:slide
 				class="boxLinguaggi grid grid-cols-1 md:grid-cols-2 gap-6 m-auto"
 				style="scroll-behavior: smooth;"
 			>
